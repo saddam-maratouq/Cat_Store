@@ -32,5 +32,17 @@ ReactDOM.render(
          --- 
 
 
+  there is new way to get id from React route insted of  ...   props.match.params.id 
 
-         
+  const { id } = useParams(); // warning id back as string // 
+
+  so you have to change it so dont forget log({}) in this way ...... 
+ 
+  and dont foret to import useParams from react-dom 
+
+   import { useParams } from "react-router-dom"; 
+
+   ---       
+
+
+   

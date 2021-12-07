@@ -8,6 +8,7 @@ import { Routes, Route,  Link } from "react-router-dom";
 import Home from './pages/Home';
 import Producet from './pages/Producet'; 
 import Cart from './pages/Cart';
+import Cat from './pages/Cat';
 
 
 
@@ -44,12 +45,11 @@ const  App = () =>  (
           
 
           <Routes>
-        
           <Route path="home" element={<Home />} exact />
           <Route path="producet" element={<Producet />}  exact/>
-          <Route path="cart" element={<Cart />} exact />   
-
-       
+          <Route path="cart" element={<Cart />} exact />    
+         
+          <Route path="cat/:id" element={<Cat />}  /> 
          </Routes> 
 
           </div> 
