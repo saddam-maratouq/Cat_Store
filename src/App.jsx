@@ -1,6 +1,7 @@
 import React from 'react' 
 import './App.css' 
 import { Routes, Route,  Link } from "react-router-dom";
+import CartIcon from './components/Cart-icon/CartIcon';
 
 
 
@@ -43,7 +44,7 @@ const  App = () =>  (
               </div>
             </nav> 
           
-
+           <CartIcon/> 
           <Routes>
           <Route path="home" element={<Home />} exact />
           <Route path="producet" element={<Producet />}  exact/>

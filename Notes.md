@@ -53,4 +53,15 @@ ReactDOM.render(
 
 --- 
 
+ the way to use font ousome in project 
 
+ first you have to i all packge 
+ secound 
+
+ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons' // icon name 
+
+last thing 
+           <FontAwesomeIcon icon={faCoffee} >  </FontAwesomeIcon>
+
+ 
