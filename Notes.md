@@ -34,9 +34,9 @@ ReactDOM.render(
 
   there is new way to get id from React route insted of  ...   props.match.params.id 
 
-  const { id } = useParams(); // warning id back as string // 
+  const { id } = useParams(); // warning id back as string //  destrcteriong cuz its obj ... 
 
-  so you have to change it so dont forget log({}) in this way ...... 
+  so you have to change it (parsInt or any another way depend on the case ) so dont forget log({}) in this way ...... 
  
   and dont foret to import useParams from react-dom 
 
@@ -45,4 +45,12 @@ ReactDOM.render(
    ---       
 
 
-   
+  // you have put /src or any path after image path cuz in some case dosent work like this app Exampel :  
+
+   /src/images/cute1.jpg  worked nicely 
+
+   src/images/cute1.jpg   dosent work in some case .... 
+
+--- 
+
+

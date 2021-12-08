@@ -7,7 +7,7 @@ const Cat = () => {
 
   const [product , setProduct ] = useState({}); 
   const [loading, setLoading] = useState(true);
-
+  const [countety,setCountety] =  useState(0)
 
 
   const { id } = useParams(); // warning id back as string // 
@@ -16,7 +16,10 @@ const Cat = () => {
 //   let clikedId = +id
   let clikedId = parseInt(id)   
 
-//   console.log(clikedId); 
+  //  console.log(clikedId); 
+
+
+
 
   const handelCat = (clikedId) => {
 
@@ -25,9 +28,12 @@ const Cat = () => {
      console.log({singelCat}); 
       
 
+     setTimeout(() => {
+       
        setLoading(false)  
 
-       setProduct (singelCat);
+       setProduct(singelCat);
+     }, 1500);
    
     
     return singelCat;
@@ -40,22 +46,56 @@ const Cat = () => {
   useEffect(() => {
     handelCat(clikedId);  
     
-  }, []);
+  }, [clikedId]);
 
   
 
+  const handelCountety = (e) => {
+  const   value = e.target.value 
+  if(value < 0) 
+  return ; 
 
-//   if (loading){
-//    return   ' loading ...' 
-// }
+  setCountety(value) 
+  }
+
+
+  if (loading){
+   return   ' loading ...' 
+} 
+
+
+
   return ( 
    
-          <div> 
-             <h1> {product.price} </h1>
-             <img src={product.Image} alt='cat'  />
-                
-            </div>
+    <div>
+         <div className={'row'}>
+        <div className="col-6">
+        <img src={product.Image} width={'100%'}/>
+         </div>
+         <div className="col-6"> 
 
+
+            <h1>{product.name}</h1>
+
+            <h3>Price : {product.price}$</h3>
+
+            <p>{product.description}</p>
+
+            <br/><br/>
+
+            <input type="number" value={countety}  onChange={handelCountety} /> 
+            
+            <br /><br />  
+
+            <p> Total : {product.price * countety }$   </p>
+
+            <button className="btn btn-primary">
+                Add to Cart
+            </button>
+
+        </div>
+    </div>
+</div>
 
   );
 };
