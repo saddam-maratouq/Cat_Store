@@ -1,14 +1,20 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import {catContext} from '../context/CatContext'  
 
 import { catData } from "../Cat-Data/CatData";
 
-const Cat = () => { 
+const Cat = () => {      /// to select  specfic cat when clicked on it // 
 
   const [product , setProduct ] = useState({}); 
   const [loading, setLoading] = useState(true);
-  const [countety,setCountety] =  useState(0)
+  const [countety,setCountety] =  useState(0) 
 
+  // context 
+  // const {  } = useContext(catContext)  
+
+  const { addCat , Cart } =  useContext(catContext) 
+  console.log(Cart); 
 
   const { id } = useParams(); // warning id back as string // 
     //   console.log({id});
@@ -16,8 +22,13 @@ const Cat = () => {
 //   let clikedId = +id
   let clikedId = parseInt(id)   
 
-  //  console.log(clikedId); 
+  //  console.log(clikedId);  
 
+
+  const handelAddCat = () => {
+
+    addCat(product);   
+  } 
 
 
 
@@ -89,7 +100,7 @@ const Cat = () => {
 
             <p> Total : {product.price * countety }$   </p>
 
-            <button className="btn btn-primary">
+            <button onClick={handelAddCat} className="btn btn-primary"> 
                 Add to Cart
             </button>
 

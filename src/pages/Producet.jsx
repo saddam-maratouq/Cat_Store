@@ -1,12 +1,18 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 import ProductItem from "../components/ProductItem";
-import {catData} from '../Cat-Data/CatData' 
+import {catContext} from '../context/CatContext'  
+
 
 
 
 const Producet = () => { 
 
-    const [catdata,setCatDate] = useState(catData) 
+    // const [catdata,setCatDate] = useState(catData) 
+  const { Cats } = useContext(catContext)  
+  // const { Cart } = useContext(catContext)  
+  // console.log(Cart);
+
+
 
   return (
     <div>
@@ -14,7 +20,7 @@ const Producet = () => {
 
       <div className="row">  
 
-      {catdata.map(cat => (
+      {Cats.map(cat => (
 
         <div className={"col-4"} key={cat.id} > 
 

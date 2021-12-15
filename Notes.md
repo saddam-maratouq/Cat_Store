@@ -65,3 +65,6 @@ last thing
            <FontAwesomeIcon icon={faCoffee} >  </FontAwesomeIcon>
 
  
+// New note after change app to context ..... 
+
+  

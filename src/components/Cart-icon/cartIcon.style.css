@@ -13,5 +13,6 @@
 .shoping-cart {
     position: absolute;
     top: 24px;
-    right: 20px;
+    right: 20px; 
+    color: black;
 }
