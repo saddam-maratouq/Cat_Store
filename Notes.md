@@ -76,3 +76,30 @@ useEffect(() => {
  setTotal (Cart.reduce((acc,item) => acc + Number(item.price) * item.qty , 0 ) ) /// new one way // depended in this position 
 
 }, [Cart])  
+
+
+
+
+---
+
+
+// best way to control how the butoon display in  (productItem )
+
+
+  { 
+            Cart.some((p) => p.id === cat.id) ?  // back T or F 
+
+  
+            (  <button onClick={deleteHandler} className="btn btn-danger"> 
+
+                    Remove from Cart
+              </button> ) 
+
+              : 
+
+              ( <button onClick={handelAddCat} className="btn btn-primary"> 
+                Add to Cart
+            </button> ) 
+              
+              
+         }

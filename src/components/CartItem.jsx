@@ -4,9 +4,9 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 import {catContext} from '../context/CatContext'  
 
 
-const CartItem = ({cat,changeQty}) => { 
+const CartItem = ({cat}) => { 
 
-  const {  deleteCat  } =  useContext(catContext) 
+  const {  deleteCat , changeQty  } =  useContext(catContext) 
 
 
 
@@ -23,13 +23,15 @@ const CartItem = ({cat,changeQty}) => {
 
 
   const handelQuantity = (e) => {
-   const value = Number(e.target.value) /// carful back as string 
+   
+    const value = Number(e.target.value) /// carful back as string 
+
 
    console.log({value});
    if (value < 0) {
-     return ; 
+     return  value  
    }
-   changeQty(clickedId,value) ;  
+   changeQty(clickedId,value) ;   
   
   } 
 
@@ -46,7 +48,7 @@ const CartItem = ({cat,changeQty}) => {
           <h4> ${cat.price} </h4>  
           <br /> 
           <input type='Number' value={cat.qty} onChange={handelQuantity}/>  
-           <br /> 
+           <br /> <br /> 
 
            {/* <p> total : ${cat.price * countety}  </p> */}
           <button   onClick = {deleteHandler }   className="btn btn-danger">Delete 

@@ -8,38 +8,19 @@ const Cart = () => {
 
   const {  Cart  } =  useContext(catContext)  
 
-  const { changeQty } =  useContext(catContext) 
 
 
-  
-// calc total from price 
-
-
-// const  quantity = Cart.map(c => c.qty ) //[...]
-// console.log({quantity});
-
-// const amount = Cart.map(c => c.price ) //[100,150,250,300....]
-
-// const reducer = (acc,item) => (acc + item) 
-
-
-// const quntityTotal = quantity.reduce(reducer, 0 )  
-// console.log({quntityTotal}); 
-
-
-  // const Total = amount.reduce(reducer , 0) 
-  // // console.log(Total); 
 
 
 const [total,setTotal] = useState() 
 
 console.log(total);
 useEffect(() => {
- setTotal (Cart.reduce((acc,item) => acc + Number(item.price) * item.qty , 0 ) ) 
+ setTotal (Cart.reduce((acc,item) => (acc + item.price) * item.qty , 0 ) ) // some time change to number 
 
 }, [Cart]) 
 
-
+  
 
   return ( 
     <div>
@@ -51,14 +32,14 @@ useEffect(() => {
 
         <div className={"col-3"} key={cat.id}  > 
 
-        <CartItem cat={cat}  changeQty={changeQty} />
+        <CartItem cat={cat}  />
 
         </div>
 
       ))}   
     </div>
     
-    <h3> Total :  ${total } </h3> 
+    <h3> Total :  &#128178;{total} </h3> 
    
 
   <div className="d-grid gap-2">
