@@ -2,6 +2,8 @@ import React, { useState,useContext } from "react";
 import ProductItem from "../components/ProductItem";
 import {catContext} from '../context/CatContext'  
 
+import { v4 as uuidv4 } from 'uuid';
+// ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d' 
 
 
 
@@ -12,6 +14,7 @@ const Producet = () => {
   // const { Cart } = useContext(catContext)  
   // console.log(Cart);
 
+  
 
 
   return (
@@ -20,7 +23,7 @@ const Producet = () => {
 
       <div className="row">  
 
-      {Cats.map(cat => (
+      {Cats.map(cat  => (
 
         <div className={"col-4"} key={cat.id} > 
 

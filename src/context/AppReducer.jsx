@@ -4,19 +4,26 @@
 export const AppReducer = (state,action) => {
 
 
-    if (action.type ==='DELET_TRANS') { 
+    if (action.type ==='DELET_CAT') { 
        return {
             ...state ,
-            transction : state.transction.filter(trans => trans.id !== action.paylod)
+            Cart : state.Cart.filter(c => c.id !== action.paylod)
        }
     } 
     
     else if ( action.type === 'ADD_CAT') {
        return {
           ...state , 
-          Cart : [action.paylod , ...state.Cart] // this is the main thing to Producet   to cart 
+          Cart : [...state.Cart, {...action.paylod , qty : 1 }  ] // this is the main thing to  add Producet to cart Array  
        }
-    }
+    } 
+
+    else if ( action.type === 'CHANGE_QTY') {
+      return {
+         ...state , 
+         Cart : state.Cart.filter(c => c.id === action.paylod.id ? (c.qty = action.paylod.qty)  : c.qty )  
+      }
+   }
     
     }
     

@@ -67,4 +67,12 @@ last thing
  
 // New note after change app to context ..... 
 
-  
+  this is another way in this case to reduce methoud  
+
+  const [total,setTotal] = useState() 
+
+console.log(total);
+useEffect(() => {
+ setTotal (Cart.reduce((acc,item) => acc + Number(item.price) * item.qty , 0 ) ) /// new one way // depended in this position 
+
+}, [Cart])  
