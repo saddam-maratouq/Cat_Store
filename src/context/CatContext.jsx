@@ -1,6 +1,6 @@
 
 import React, {createContext, useReducer} from 'react'    
-import { catData } from "../Cat-Data/CatData"; 
+import {catData } from "../Cat-Data/CatData"; 
 import {AppReducer}  from './AppReducer'
 // import {catContext} from '../context/CatContext'  
 
@@ -53,7 +53,7 @@ const initialState =  {
 
 
     const value = { Cats : state.Cats , Cart : state.Cart , addCat , deleteCat  , changeQty }   
-    // const value = { state } // its work   but you need discructer when use the element from state 
+    // const value = { state } // its work   but you need discructer when need  the element from state 
 
     
     return (

@@ -31,6 +31,7 @@ ReactDOM.render(
 
          --- 
 
+**useParams**
 
   there is new way to get id from React route insted of  ...   props.match.params.id 
 

@@ -8,12 +8,12 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
 
   const [product , setProduct ] = useState({}); 
   const [loading, setLoading] = useState(true);
-  const [countety,setCountety] =  useState(0) 
+  // const [countety,setCountety] =  useState(0) 
 
   // context 
   // const {  } = useContext(catContext)  
 
-  const { addCat , Cart } =  useContext(catContext) 
+  const { addCat , Cart , deleteCat } =  useContext(catContext) 
   console.log(Cart); 
 
   const { id } = useParams(); // warning id back as string // 
@@ -32,6 +32,16 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
 
 
 
+
+  const clickedId =  product.id 
+
+  const deleteHandler = () => {
+    deleteCat(clickedId);
+  }
+
+
+
+  
   const handelCat = (clikedId) => {
 
     const singelCat = catData.find((cat) => cat.id === clikedId);
@@ -61,13 +71,13 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
 
   
 
-  const handelCountety = (e) => {
-  const   value = e.target.value 
-  if(value < 0) 
-  return ; 
+  // const handelCountety = (e) => {
+  // const   value = e.target.value 
+  // if(value < 0) 
+  // return ; 
 
-  setCountety(value) 
-  }
+  // setCountety(value) 
+  // }
 
 
   if (loading){
@@ -94,15 +104,34 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
 
             <br/><br/>
 
-            <input type="number" value={countety}  onChange={handelCountety} /> 
+            {/* <input type="number" value={countety}  onChange={handelCountety} /> 
             
             <br /><br />  
 
-            <p> Total : {product.price * countety }$   </p>
+            <p> Total : {product.price * countety }$   </p>  */}
 
-            <button onClick={handelAddCat} className="btn btn-primary"> 
+
+            { 
+            Cart.some((p) => p.id === product.id) ?  // back T or F 
+
+  
+            (  <button onClick={deleteHandler} className="btn btn-danger"> 
+
+                    Remove from Cart 
+              </button> ) 
+
+              : 
+
+            ( <button onClick={handelAddCat} className="btn btn-primary"> 
                 Add to Cart
-            </button>
+            </button> ) 
+              
+              
+                }
+
+            {/* <button onClick={handelAddCat} className="btn btn-primary"> 
+                Add to Cart
+            </button> */}
 
         </div>
     </div>
