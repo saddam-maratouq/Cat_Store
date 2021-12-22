@@ -7,7 +7,7 @@ const ProductItem = ({cat}) => {
 
 
   const { addCat , Cart , deleteCat } =  useContext(catContext) 
-  console.log({Cart}); 
+  // console.log({Cart}); 
 
 
   
