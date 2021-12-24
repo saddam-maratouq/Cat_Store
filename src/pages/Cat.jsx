@@ -54,7 +54,7 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
        setLoading(false)  
 
        setProduct(singelCat);
-     }, 1500);
+     }, );
    
     
     return singelCat;

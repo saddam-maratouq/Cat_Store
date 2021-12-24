@@ -21,7 +21,7 @@
       }, 
 
       {
-        "id": 9,
+        "id": 0 ,
         "price": 250,
         "name": " Brown Exotic shorthair  ",
         "Image": "https://www.arageek.com/wp-content/uploads/2018/05/%D9%82%D8%B7-%D8%A7%D9%84%D8%AF%D8%AE%D9%8A%D9%84.jpg",
@@ -65,7 +65,8 @@
         "id": 6 ,
         "name": " Green shirazie cat  ",
         "price": 40 ,
-        "Image": "https://www.thesprucepets.com/thmb/-2TISPth6ekCcSrV21b1F5xlcSM=/3864x2173/smart/filters:no_upscale()/brown-persian-cat-laying-on-edge-of-green-carpet-456750383-581211b53df78c2c7320b40b.jpg",
+        "Image": "https://www.thesprucepets.com/thmb/-2TISPth6ekCcSrV21b1F5xlcSM=/3864x2173/smart/filters:no_upscale()/brown-persian-cat-laying-on-edge-of-green-carpet-456750383-581211b53df78c2c7320b40b.jpg", 
+
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
       },  
 
@@ -74,7 +75,9 @@
         "id": 7 ,
         "name": "Shirazie cat eva   ",
         "price": 480,
-        "Image": "https://vetwork.co/galaxy/wp-content/uploads/%D8%A7%D9%84%D9%82%D8%B7%D8%B7-%D8%A7%D9%84%D8%B4%D9%8A%D8%B1%D8%A7%D8%B2%D9%8A-5.jpg",
+
+        "Image": "https://vetwork.co/galaxy/wp-content/uploads/%D8%A7%D9%84%D9%82%D8%B7%D8%B7-%D8%A7%D9%84%D8%B4%D9%8A%D8%B1%D8%A7%D8%B2%D9%8A-5.jpg", 
+
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
       },  
 
