@@ -46,7 +46,7 @@ const Header = () => {
     <Route path="/producet" element={<Producet />}  exact/>
     <Route path="/cart" element={<Cart />} exact />    
    
-    <Route path="cat/:id" element={<Cat />} exact  /> 
+    <Route path="/cat/:id" element={<Cat />} exact  /> 
    </Routes> 
 
     </div> 
