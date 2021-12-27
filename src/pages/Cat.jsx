@@ -91,7 +91,7 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
     <div>
          <div className={'row'}>
         <div className="col-6">
-        <img src={product.Image} width={'100%'}/>
+        <img src={product.Image} width={'80%'}  height={'90%'}/>
          </div>
          <div className="col-6"> 
 
