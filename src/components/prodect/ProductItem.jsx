@@ -1,7 +1,9 @@
 import  {useContext} from 'react' 
 
-import {catContext} from '../context/CatContext'  
+import {catContext} from '../../context/CatContext'  
 
+
+import './item.css'
 
 const ProductItem = ({cat}) => { 
 
@@ -30,9 +32,9 @@ const ProductItem = ({cat}) => {
 
     
         
-        <div> 
+        <div className='cards'  >  
          <div className="card" >
-        <img src={cat.Image}  className="card-img-top" alt='cat'  style={{ width : '300px' , height : '300px' }}/>
+        <img src={cat.Image}  className="card-img" alt='cat'  style={{ width : '200px' , height : '200px' }}/>
       
         <div className="card-body">
 

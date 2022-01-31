@@ -2,6 +2,11 @@ import {useContext,useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons' 
 import {catContext} from '../context/CatContext'  
+ 
+
+
+
+
 
 
 const CartItem = ({cat}) => { 

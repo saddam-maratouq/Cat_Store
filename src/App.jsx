@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css' 
 // import { Routes, Route,  Link } from "react-router-dom";
 // import CartIcon from './components/Cart-icon/CartIcon';
-import Header from './components/Header';
+import Header from './components/header/Header';
 import CatProvider from './context/CatContext';
 
 
