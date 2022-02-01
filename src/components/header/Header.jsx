@@ -5,10 +5,10 @@ import './header.css'
 
 import logo from '../../Images/cat.png'
 //pages 
-import Home from '../../pages/Home';
-import Producet from '../../pages/Producet'; 
+import Producet from '../../pages/producet/Producet'; 
 import Cart from '../../pages/Cart';
 import Cat from '../../pages/Cat';
+import Home from '../../pages/home/Home';
 
 
 const Header = () => {
@@ -39,10 +39,10 @@ const Header = () => {
         
         </div>
       </nav> 
-    
      <CartIcon/>  
     <Routes>
-    <Route path="/home" element={<Home />} exact />
+    <Route path="/" element={<Home/>} exact />
+    <Route path="/home" element={<Home/>} exact />
     <Route path="/producets" element={<Producet />}  exact/>
     <Route path="/cart" element={<Cart />} exact />    
    

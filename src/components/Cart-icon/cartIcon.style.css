@@ -1,18 +1,38 @@
 #cart-icon   {
     font-size: 24px; 
+    display: flex;
+    align-items: center;
    
 }
 
 #cart-icon span { 
     font-size: 12px;
     position: absolute;
-    top: 5px;
+    top: 31px;
     right: 5px;
 }
 
 .shoping-cart {
     position: absolute;
-    top: 24px;
+    top: 52px;
     right: 20px; 
     color: black;
+}
+
+@media all and (min-width: 500px) and (max-width: 991px) { 
+
+    .shoping-cart {
+        position: absolute;
+        top: 17px;
+        right: 20px; 
+        color: black;
+    }
+    
+    #cart-icon span { 
+        font-size: 12px;
+        position: absolute;
+        top: 0px;
+        right: 5px;
+    }
+    
 }

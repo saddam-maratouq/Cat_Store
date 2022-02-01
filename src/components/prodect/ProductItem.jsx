@@ -62,10 +62,6 @@ const ProductItem = ({cat}) => {
               
                 }
               
-               
-          
-
-        
           </div>
           </div>
         </div> 
