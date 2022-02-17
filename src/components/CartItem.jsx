@@ -47,7 +47,7 @@ const CartItem = ({cat}) => {
         
         <div> 
          <div className="card" >
-        <img src={cat.Image}  className="card-img-top" alt='cat'  style={{ width : '150px' , height : '150px' }}/>
+        <img src={cat.Image}  className="card-img-top" alt='cat'  style={{ width : '250px' , height : '250px' }}/>
         <div className="card-body">
           <h3 className="card-title"> {cat.name}  </h3> 
           <h4> ${cat.price} </h4>  

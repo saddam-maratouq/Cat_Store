@@ -1,10 +1,10 @@
 .card-img {
     display: flex;
     justify-content: center;
-    margin: 10%;
+   
 } 
 
-.cards {
+.card {
     margin: 10%;
 }
 

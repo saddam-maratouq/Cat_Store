@@ -34,7 +34,7 @@ const ProductItem = ({cat}) => {
         
         <div className='cards'  >  
          <div className="card" >
-        <img src={cat.Image}  className="card-img" alt='cat'  style={{ width : '200px' , height : '200px' }}/>
+        <img src={cat.Image}  className="card-img" alt='cat'  style={{ width : '300px' , height : '300px' }}/>
       
         <div className="card-body">
 
