@@ -1,8 +1,9 @@
 .main {
     width: 100%;
     min-height: 100vh;
-     background-image: url(../../../../src/Images/herocat.jpg);
+     background-image: url('https://c4.wallpaperflare.com/wallpaper/94/836/18/cat-eyes-look-grey-wallpaper-preview.jpg');
     background-position: center;
-    background-size: cover ; 
+    background-size: cover ;
+    background-repeat: no-repeat; 
 }
 
