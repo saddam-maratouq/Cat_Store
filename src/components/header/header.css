@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
+
+.navbar-nav {
+    font-size: 1.5em;
+    font-family: 'Maven Pro', sans-serif;
+    margin-right: 20%;
+}
+
+
+
+.nav-item {
+    transition: 4ms; 
+    padding: 50px;
+} 
+
+.nav-link:hover {
+    border-bottom: 2px solid #0B5ED7;
+}
