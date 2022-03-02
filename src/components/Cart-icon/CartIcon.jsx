@@ -8,7 +8,10 @@ import { IoCartOutline } from "react-icons/io5";
 
 //icon 
 
-import './cartIcon.style.css' 
+import './cartIcon.style.css'  
+
+
+
 
 const CartIcon = () => { 
 
@@ -18,7 +21,8 @@ const CartIcon = () => {
 
   const [total,setTotal] = useState() 
 
-console.log(total);
+  console.log(total);
+
 useEffect(() => {
  setTotal (Cart.reduce((acc,item) => (acc +  item.qty)  , 0 ) ) // some time change to number 
 
@@ -27,11 +31,13 @@ useEffect(() => {
 
 
     return (
-        <div id="cart-icon"> 
-        <Link  to='cart' > 
-        <IoCartOutline  color='gray' size="1.9em"   />
+        <div id="cart-icon" > 
+        <Link   to='cart' > 
+       
+        <IoCartOutline className='cart' color='gray' size="1.9em"   />
            
             <span className="badge bg-danger ">{total} </span>
+      
         </Link> 
         </div>
     )

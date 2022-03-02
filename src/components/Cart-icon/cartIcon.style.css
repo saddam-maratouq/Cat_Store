@@ -2,22 +2,18 @@
     font-size: 24px; 
     display: flex;
     align-items: center;
-   
+   position: relative;
+   right: 10%;
 }
 
 #cart-icon span { 
     font-size: 12px;
     position: absolute;
-    top: 31px;
-    right: 5px;
+    bottom: 80%;
+    left: 27px;
 }
 
-.shoping-cart {
-    position: absolute;
-    top: 52px;
-    right: 20px; 
-    color: black;
-}
+
 
 @media all and (min-width: 500px) and (max-width: 991px) { 
 
@@ -31,8 +27,12 @@
     #cart-icon span { 
         font-size: 12px;
         position: absolute;
-        top: 0px;
-        right: 5px;
+        bottom: 40px;
+        left: 30px;
     }
     
-}
+} 
+
+
+
+/*  back to fix query  on small screen  */ 
