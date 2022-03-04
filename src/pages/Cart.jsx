@@ -1,5 +1,5 @@
 import React, { useState,useContext,useEffect } from "react";
-import CartItem from "../components/CartItem";
+import CartItem from "../cartItem/CartItem";
 import {catContext} from '../context/CatContext'  
 
 
@@ -25,13 +25,13 @@ useEffect(() => {
 
   return ( 
     <div>
-      <center>  <h1>  Cart   </h1> </center>
+      <center>  <h1 className="m-5 " >  Cart   </h1> </center>
 
       <div className="row">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
       {Cart.map(cat => (
 
-        <div className={"col-3"} key={cat.id}  > 
+        <div className={"col-12  d-flex  "} key={cat.id}  > 
 
         <CartItem cat={cat}  />
 

@@ -1,0 +1,13 @@
+.qty {
+    width: 40%;
+}
+
+
+.table {
+    border-right: 6px solid #3E65A0; 
+    transition: 10ms ;
+}
+
+.table:hover {
+    background-color: #3E65A0;
+}

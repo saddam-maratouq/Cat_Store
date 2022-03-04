@@ -1,14 +1,4 @@
  
- import { v4 as uuidv4 } from 'uuid';
-  // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d' 
-
-  import { v1 as uuidv1 } from 'uuid';
-
-; // ⇨ '2c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d' 
-
-// import { nanoid } from 'nanoid';
-
-// nanoid()
  
  
  export  const catData = [
