@@ -1,0 +1,47 @@
+
+.About-sc {
+    width: 100%;
+    min-height: 125vh;
+    
+} 
+
+
+
+
+.About {
+    min-width: 120%;    
+}  
+
+.img-c {
+    padding-top: 15%;
+    margin-right: 8%;
+}
+
+
+.A-info {
+    margin-top: 10%;
+    min-width: 200px;
+}
+
+
+
+.A-info h2 {
+    font-weight: 800;
+}
+
+
+
+.A-info p {
+    font-size: 0.877em;
+    text-align: left;
+    font-weight: 500;
+    color: #3F2717;
+
+} 
+
+
+                          /* query  */  
+
+
+
+                          

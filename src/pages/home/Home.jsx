@@ -12,6 +12,8 @@ import cat2 from '../../Images/cat2.jpg'
 
 import cat3 from '../../Images/cat3.jpg' 
 
+import About from './About/About'
+
 
 
 
@@ -19,8 +21,9 @@ import cat3 from '../../Images/cat3.jpg'
    const Home = () => {
     return (
     
-       
-    <section  className='main'>
+       <> 
+         <section  className='main'>
+    
 
                 <Carousel fade variant="white" 
                 
@@ -84,9 +87,12 @@ import cat3 from '../../Images/cat3.jpg'
                 </Carousel> 
 
     </section>
+ 
 
-
-       
+        {/* feathers section  */}
+      
+        <About/> 
+    </>
     )
 }
 
