@@ -1,7 +1,7 @@
 
 .About-sc {
     width: 100%;
-    min-height: 125vh;
+    min-height: 100vh;
     
 } 
 
@@ -9,7 +9,8 @@
 
 
 .About {
-    min-width: 120%;    
+    min-width: 120%; 
+    padding-top: 2%;   
 }  
 
 .img-c {
@@ -19,7 +20,7 @@
 
 
 .A-info {
-    margin-top: 10%;
+    margin-top: 15%;
     min-width: 200px;
 }
 
@@ -32,12 +33,14 @@
 
 
 .A-info p {
-    font-size: 0.877em;
-    text-align: left;
-    font-weight: 500;
+    font-size:1em;
+    text-align: justify;
+    font-weight: 600;
     color: #3F2717;
-
 } 
+
+
+
 
 
                           /* query  */  

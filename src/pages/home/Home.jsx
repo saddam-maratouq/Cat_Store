@@ -13,6 +13,7 @@ import cat2 from '../../Images/cat2.jpg'
 import cat3 from '../../Images/cat3.jpg' 
 
 import About from './About/About'
+import Feathers from './Feathers/Feathers'
 
 
 
@@ -89,9 +90,13 @@ import About from './About/About'
     </section>
  
 
-        {/* feathers section  */}
+        {/* About section  */}
       
-        <About/> 
+        <About/>  
+
+        {/* feathers section  */} 
+
+        <Feathers/> 
     </>
     )
 }

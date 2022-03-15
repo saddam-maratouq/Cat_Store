@@ -10,7 +10,7 @@ import Acat from '../../../Images/AboutCat.jpg'
 
 
 
-const Feathers = () => {
+const About = () => {
   return (
    <section className='About-sc' >  
        <div className="container">
@@ -58,4 +58,4 @@ const Feathers = () => {
   )
 }
 
-export default Feathers
+export default About 
