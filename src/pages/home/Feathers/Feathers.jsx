@@ -1,9 +1,7 @@
 import React from 'react'
 
-
 import './Feathers.css'
 
-import Card from 'react-bootstrap/Card' 
 
 
 
