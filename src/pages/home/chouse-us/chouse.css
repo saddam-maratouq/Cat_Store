@@ -1,0 +1,19 @@
+.chouse {
+    width: 100%;
+    height: 90vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start
+}
+
+.c-title {
+    padding-top: 102px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+

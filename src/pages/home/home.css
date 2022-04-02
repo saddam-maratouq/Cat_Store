@@ -1,4 +1,6 @@
- .main {
+
+
+.main {
     width: 100%;
     height: calc(  80vh - 1.5rem )  
 }  
@@ -30,6 +32,8 @@
 
 
 
+
+
 @media (max-width: 768px) {
     
     .f-label {
@@ -46,3 +50,15 @@
 } 
 
 
+
+/* Edit Main bootStrap  */ 
+
+ 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 10rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+} 

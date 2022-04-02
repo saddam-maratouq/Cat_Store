@@ -1,6 +1,8 @@
 import {useContext,useState,useEffect} from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faShoppingCart } from '@fortawesome/free-solid-svg-icons' 
+
+
 import {  Link } from "react-router-dom"; 
 import { catContext } from '../../context/CatContext';
 
@@ -31,7 +33,7 @@ useEffect(() => {
 
 
     return (
-        <div id="cart-icon" > 
+        <div className = "cart-icon" > 
         <Link   to='cart' > 
        
         <IoCartOutline className='cart' color='gray' size="1.9em"   />

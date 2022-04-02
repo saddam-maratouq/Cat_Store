@@ -1,12 +1,13 @@
-#cart-icon   {
+.cart-icon   {
     font-size: 24px; 
     display: flex;
     align-items: center;
-   position: relative;
-   right: 10%;
-}
+      position: relative;
+     /* right: 10%;
+     text-align: center; */ */
+} 
 
-#cart-icon span { 
+.cart-icon span { 
     font-size: 12px;
     position: absolute;
     bottom: 80%;
@@ -15,20 +16,15 @@
 
 
 
-@media all and (min-width: 500px) and (max-width: 991px) { 
+@media all and (min-width: 300px) and (max-width: 991px) { 
 
-    .shoping-cart {
-        position: absolute;
-        top: 17px;
-        right: 20px; 
-        color: black;
-    }
     
-    #cart-icon span { 
+    
+      .cart-icon span { 
         font-size: 12px;
         position: absolute;
-        bottom: 40px;
-        left: 30px;
+        bottom: 82%;
+        left: 27px;
     }
     
 } 

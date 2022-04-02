@@ -8,14 +8,26 @@
     margin-right: 20%;
 }
 
-
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
 
 .nav-item {
-    transition: 4ms; 
+    /* transition: 4ms;  */
     padding: 50px;
 } 
 
-.nav-link:hover {
-    border-bottom: 2px solid #0B5ED7;
+.nav-Link {
+    transition: 0.8s;
 }
 
+
+@media (max-width: 995px) {
+    .nav-link:hover {
+        padding-left: 10px;
+    }
+       
+}

@@ -15,6 +15,8 @@ import cat3 from '../../Images/cat3.jpg'
 import About from './About/About'
 import Feathers from './Feathers/Feathers'
 
+import Chouse from './chouse-us/Chouse'
+
 
 
 
@@ -97,6 +99,11 @@ import Feathers from './Feathers/Feathers'
         {/* feathers section  */} 
 
         <Feathers/> 
+
+
+        {/* chouse section  */} 
+
+        <Chouse/>
     </>
     )
 }
