@@ -33,37 +33,42 @@ const ProductItem = ({cat}) => {
     
         
         <div className='cards'  >  
-         <div className="cardo" >
-        <img src={cat.Image}  className="card-img  " alt='cat' style={{ width : '32rem' }}  /> 
+         
+        
+           <div className="container"> 
+        <img src={cat.Image}  className="card-img  " alt='cat' style={{ width : '22rem' }}  /> 
       
-        <div className="card-body">
+      <div className="card-body">
 
-          <h5 className="card-title"> {cat.name}  </h5>
+        <h5 className="card-title"> {cat.name}  </h5>
 
-          <p> ${cat.price} </p>
+        <p> ${cat.price} </p>
 
-          <a  href= {`cat/${cat.id}`}  className="btn btn-light"> Details </a>  
+        <a  href= {`cat/${cat.id}`}  className="btn btn-light"> Details </a>  
 
-          { 
-            Cart.some((p) => p.id === cat.id) ?  // back T or F 
+        { 
+          Cart.some((p) => p.id === cat.id) ?  // back T or F 
 
-  
-            (  <button onClick={deleteHandler} className="btn btn-danger"> 
 
-                    Remove from Cart
-              </button> ) 
+          (  <button onClick={deleteHandler} className="btn btn-danger"> 
 
-              : 
-
-              ( <button onClick={handelAddCat} className="btn btn-primary"> 
-                Add to Cart
+                  Remove from Cart
             </button> ) 
-              
-              
-                }
-              
-          </div>
-          </div>
+
+            : 
+
+            ( <button onClick={handelAddCat} className="btn btn-primary"> 
+              Add to Cart
+          </button> ) 
+            
+            
+              }
+            
+        </div>
+           
+           </div>
+    
+          
         </div> 
       
     )

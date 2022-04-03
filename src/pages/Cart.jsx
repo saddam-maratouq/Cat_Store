@@ -27,6 +27,8 @@ useEffect(() => {
     <div>
       <center>  <h1 className="m-5 " >  Cart   </h1> </center>
 
+      <div className="container">
+
       <div className="row">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
       {Cart.map(cat => (
@@ -43,11 +45,12 @@ useEffect(() => {
     <h3> Total :  &#128178;{total} </h3> 
    
 
-  <div className="d-grid gap-2">
+  <div className="d-grid gap-1">
   <button className="btn btn-primary" type="button">Pay now </button> 
    </div>
      
-    </div>
+    </div> 
+      </div>
   );
 };
  

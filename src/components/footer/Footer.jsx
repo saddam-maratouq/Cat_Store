@@ -12,7 +12,7 @@ const Footer = () => {
     <>  
 
  {/* Footer  */}
-<footer className=" bg-success text-center text-white ">
+<footer className=" text-center text-white ">
    {/* Grid container  */}
   <div className="container p-4">
      {/* Section: Social media  */}

@@ -17,6 +17,10 @@ import Feathers from './Feathers/Feathers'
 
 import Chouse from './chouse-us/Chouse'
 
+import Cust from '../Customer/Cust'
+
+import Protfolio from './protoflio/Protfolio'
+
 
 
 
@@ -103,7 +107,15 @@ import Chouse from './chouse-us/Chouse'
 
         {/* chouse section  */} 
 
-        <Chouse/> 
+        {/* <Chouse/>  */}
+
+        {/* Customer section  */} 
+
+        <Cust/> 
+
+      {/* Protfolio Section  */}
+
+        <Protfolio/>
     </>
     )
 }

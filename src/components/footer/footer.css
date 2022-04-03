@@ -2,6 +2,17 @@ a {
     text-decoration: none;
 }
 
+
+
 .f-title {
     font-size: 25px;
 }
+
+footer {
+    background-color: var(--Sec-color);
+    min-height: 30vh;
+    width: 100%;
+    padding: 100px;
+}
+
+

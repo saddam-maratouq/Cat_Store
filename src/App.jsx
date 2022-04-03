@@ -22,7 +22,7 @@ const  App = () =>  (
       <CatProvider>
       <div>
         <Header/>  
-        {/* <Footer/>  */}
+        <Footer/> 
       </div> 
 
       </CatProvider>

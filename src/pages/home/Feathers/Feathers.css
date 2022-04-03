@@ -40,7 +40,7 @@
 
 
 .card:hover {
-    background-color: var(--main-color);
+    background-color: var(--Sec-color);
     color: white;
     transform: scale(1.1);
 
