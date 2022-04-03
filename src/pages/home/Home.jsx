@@ -98,12 +98,12 @@ import Chouse from './chouse-us/Chouse'
 
         {/* feathers section  */} 
 
-        {/* <Feathers/>  */}
+        <Feathers/> 
 
 
         {/* chouse section  */} 
 
-        {/* <Chouse/> */}
+        <Chouse/> 
     </>
     )
 }
