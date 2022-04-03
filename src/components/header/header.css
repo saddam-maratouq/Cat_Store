@@ -5,20 +5,29 @@
 .navbar-nav {
     font-size: 1.5em;
     font-family: 'Maven Pro', sans-serif;
-    margin-right: 20%;
+    /* margin-right: 10%; */
 }
 
 .list {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
     /* text-align: center; */
 }
 
+
 .nav-item {
     /* transition: 4ms;  */
-    padding: 50px;
+    padding: 10px; 
+    margin-left: 60px;
 } 
+
+.navbar-nav {
+    font-size: 1.5em;
+    font-family: 'Maven Pro', sans-serif;
+    margin-right: 5%;
+}
+
 
 .nav-Link {
     transition: 0.8s;
@@ -30,4 +39,9 @@
         padding-left: 10px;
     }
        
+    .nav-item {
+        /* transition: 4ms;  */
+        padding-bottom: 10px; 
+        /* margin-left: 90px; */
+    } 
 }

@@ -2,19 +2,29 @@
 .About-sc {
     width: 100%;
     min-height: 60vh;
-    
+    padding: 60px 0;
 } 
 
 
 
+
 .About {
-    min-width: 120%; 
-    padding-top: 2%;   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-top: 100px;
 }  
 
+
 .img-c {
-    padding-top: 15%;
-    margin-right: 8%;
+    padding-top: 300px;
+    /* margin-right: 8%; */
+}
+
+.About-img {
+    width: 500px;
+    height: 500px;
 }
 
 
@@ -26,7 +36,11 @@
 
 
 .A-info h2 {
-    font-weight: 800;
+    font-weight: 800; 
+    margin-bottom: 20px;
+    font-size: 40px;
+    padding-bottom: 70px;
+    color: black;
 }
 
 
@@ -35,14 +49,32 @@
     font-size:1em;
     text-align: justify;
     font-weight: 600;
-    color: #777
+    color: black
 } 
 
 
 
 
+      /* query  */  
+      
+      
+      @media  (max-width:1200px)  {
+        
+        .About {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+         }    
+        
 
-                          /* query  */  
+         .A-info h2 {
+            font-weight: 800; 
+            margin-bottom: 100px;
+        } 
+
+
+
+      }
 
 
 
