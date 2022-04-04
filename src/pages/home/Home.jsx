@@ -15,7 +15,7 @@ import cat3 from '../../Images/cat3.jpg'
 import About from './About/About'
 import Feathers from './Feathers/Feathers'
 
-import Chouse from './chouse-us/Chouse'
+// import Chouse from './chouseUS/Chouse'
 
 import Cust from '../Customer/Cust'
 
@@ -111,11 +111,11 @@ import Protfolio from './protoflio/Protfolio'
 
         {/* Customer section  */} 
 
-        {/* <Cust/>  */}
+        <Cust/> 
 
       {/* Protfolio Section  */}
 
-        {/* <Protfolio/> */}
+        <Protfolio/>
     </>
     )
 }

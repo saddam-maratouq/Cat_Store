@@ -1,4 +1,4 @@
-.Featchers {
+/* .Featchers {
   padding: 60px 0;
   min-height: 100vh;
 }
@@ -18,9 +18,9 @@
   margin-left: 160px;
   /* margin-right: 0px; */
   
-}
 
-.col1,
+
+/* .col1,
 .col2 {
   padding-top: 100px;
   padding-right: 100px;
@@ -60,14 +60,14 @@
   text-align: center;
   position: relative;
 }
-
+ */
 
 
 
 
 /* // _____________   QUERY________________________// */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .Feat-image {
     display: none;
   }
@@ -97,13 +97,13 @@
 
   .col1,
   .col2 {
-    /* position: relative;
-    right: 10%; */
     text-align: center;
   }
-}
+} */
 
-@media (max-width: 600px) {
+
+
+/* @media (max-width: 600px) {
   .feat {
     padding: 10px;
     min-width: 50%;
@@ -128,7 +128,6 @@
   .Feat-text p {
     color: #888;
     line-height: 1;
-    /* padding: 10px; */
     font-size: 20px;
   }
-}
+} */ 
