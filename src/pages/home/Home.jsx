@@ -107,7 +107,7 @@ import Protfolio from './protoflio/Protfolio'
 
         {/* chouse section  */} 
 
-        {/* <Chouse/>  */}
+        <Chouse/> 
 
         {/* Customer section  */} 
 
