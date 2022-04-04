@@ -20,9 +20,9 @@ import Feathers from './Feathers/Feathers'
 
 // import Chouse from './chouseUS/Chouse'
 
-import Cust from '../Customer/Cust'
+// import Cust from '../Customer/Cust'
 
-// import Protfolio from './protoflio/Protfolio'
+// import Protfolio from './protoflio/Protfolio' 
 
 
 
@@ -38,7 +38,7 @@ import Cust from '../Customer/Cust'
                 <Carousel fade variant="white" 
                 
                 autoPlay={true}
-                interval={4000} 
+                interval={3000} 
               
                 > 
 
@@ -114,7 +114,7 @@ import Cust from '../Customer/Cust'
 
         {/* Customer section  */} 
 
-        <Cust/> 
+        {/* <Cust/>  */}
 
       {/* Protfolio Section  */}
 
