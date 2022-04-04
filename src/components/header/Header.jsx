@@ -5,7 +5,7 @@ import './header.css'
 
 import logo from '../../Images/cat.png'
 //pages 
-import Producet from '../../pages/producet/Producet'; 
+import Producet from '../../pages/producet/Producet';  
 import Cart from '../../pages/Cart';
 import Cat from '../../pages/Cat';
 import Home from '../../pages/home/Home';
@@ -26,7 +26,7 @@ const Header = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className='list' className="collapse navbar-collapse  " id="navbarSupportedContent">
+        <div  className="collapse navbar-collapse  " id="navbarSupportedContent">
           <ul className="navbar-nav  ms-auto px-5  mb-2  mb-lg-0"> 
           
           <li className="nav-item">
