@@ -4,6 +4,8 @@ import './home.css'
 
 import Carousel from 'react-bootstrap/Carousel' 
 
+  
+
 //img 
 
 import cat1 from '../../Images/cat1.jpg' 
@@ -18,14 +20,9 @@ import About from './About/About'
 
 import Feathers from './Feathers/Feathers'
 
-// import Chouse from './chouseUS/Chouse'
 
-// import Cust from '../Customer/Cust'
-
-// import Protfolio from './protoflio/Protfolio' 
-
-
-
+  
+   
 
 
    const Home = () => {
@@ -107,18 +104,6 @@ import Feathers from './Feathers/Feathers'
 
         <Feathers/> 
 
-
-        {/* chouse section  */} 
-
-        {/* <Chouse/>  */}
-
-        {/* Customer section  */} 
-
-        {/* <Cust/>  */}
-
-      {/* Protfolio Section  */}
-
-        {/* <Protfolio/>   */}
     </>
     )
 }
