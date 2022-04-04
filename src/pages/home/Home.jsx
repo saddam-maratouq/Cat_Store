@@ -13,13 +13,16 @@ import cat2 from '../../Images/cat2.jpg'
 import cat3 from '../../Images/cat3.jpg' 
 
 import About from './About/About'
+
+
+
 import Feathers from './Feathers/Feathers'
 
 // import Chouse from './chouseUS/Chouse'
 
 import Cust from '../Customer/Cust'
 
-import Protfolio from './protoflio/Protfolio'
+// import Protfolio from './protoflio/Protfolio'
 
 
 
@@ -115,7 +118,7 @@ import Protfolio from './protoflio/Protfolio'
 
       {/* Protfolio Section  */}
 
-        <Protfolio/>
+        {/* <Protfolio/>   */}
     </>
     )
 }
