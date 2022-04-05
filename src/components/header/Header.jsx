@@ -40,7 +40,7 @@ const Header = () => {
             </li> 
 
             <li className="nav-item">
-            <i class=" user-icon fa-regular fa-user"></i>
+            <i className=" user-icon fa-regular fa-user"></i>
             </li>  
 
             <li className="nav-item">

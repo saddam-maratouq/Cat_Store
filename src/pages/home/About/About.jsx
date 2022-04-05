@@ -4,7 +4,7 @@ import React from 'react'
 import './About.css'
 
 //img 
-import Acat from '../../../Images/AboutCat.jpg' 
+import Aboutcat from '../../../Images/AboutCat.jpg' 
 
 
 
@@ -17,7 +17,7 @@ const About = () => {
 
         <div className=" About row align-items-center ">  
         <div className='col img-c'>
-            <img   className='About-img' src={Acat} alt="gray cat" />
+            <img   className='About-img' src={Aboutcat} alt="gray cat" />
         </div>
         <div className=" A-info col   "> 
 

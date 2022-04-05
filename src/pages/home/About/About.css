@@ -1,7 +1,7 @@
 
 .About-sc {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     
 } 
 
@@ -18,10 +18,15 @@
     margin-right: 8%;
 }
 
+.About-img {
+    width: 600px;
+    height: 600px;
+} 
 
 .A-info {
-    margin-top: 15%;
-    min-width: 200px;
+    min-width: 500px;
+    margin-top: 300px;
+    margin-right: 100px;
 }
 
 
@@ -33,18 +38,43 @@
 
 
 .A-info p {
-    font-size:1em;
+    font-size:16px;
     text-align: justify;
     font-weight: 600;
     color: #3F2717;
+    max-width: 100%;
 } 
 
+/* query  */ 
+
+@media (max-width : 975px) {
+
+   .A-info p {
+       font-size: 17px;
+   }
+
+   .A-info h2 {
+       margin-bottom: 50px;
+   }
+
+   .A-info {
+       margin-top: 50px;
+       
+   }
+}
 
 
-
-
-                          /* query  */  
-
-
-
-                          
+@media (max-width : 1200px) {
+    .A-info p {
+        font-size: 17px;
+    }
+ 
+    .A-info h2 {
+        margin-bottom: 50px;
+    }
+ 
+    .A-info {
+        margin-top: 50px;
+        
+    }
+}
