@@ -30,7 +30,7 @@ import Cust from './Customer/Cust'
                 <Carousel fade variant="white" 
                 
                 autoPlay={true}
-                interval={4000} 
+                interval={3000} 
               
                 > 
 

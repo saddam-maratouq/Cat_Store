@@ -5,17 +5,49 @@
 .navbar-nav {
     font-size: 1.5em;
     font-family: 'Maven Pro', sans-serif;
-    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
 }
-
 
 
 .nav-item {
     transition: 4ms; 
-    padding: 50px;
+    padding: 30px;
 } 
 
-.nav-link:hover {
-    border-bottom: 2px solid #0B5ED7;
+
+.user-icon {
+    font-size: 30px;
+    color: gray;
+    display: flex;
 }
 
+.nav-link:hover {
+    color: aqua;
+}
+
+
+/* mobile , Tablet  */
+
+ @media (max-width : 989px ) {
+
+    .nav-item {
+        transition: 0.8s ease-in-out;
+    }
+
+    .nav-item:hover {
+        padding-left: 100px;
+    }
+
+ }
+
+
+ /* Carsoel Arow */ 
+
+
+ .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 7rem;
+    height: 5rem;
+}

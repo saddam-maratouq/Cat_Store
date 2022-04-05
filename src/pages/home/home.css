@@ -28,7 +28,11 @@
     word-spacing: 10px;
 }
 
-
+.info p {
+    margin-bottom: 0rem;
+    font-weight: 900;
+    margin-top: -1rem;
+}
 
 @media (max-width: 768px) {
     

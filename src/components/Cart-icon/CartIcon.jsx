@@ -31,7 +31,7 @@ useEffect(() => {
 
 
     return (
-        <div id="cart-icon" > 
+        <div className ="cart-icon" > 
         <Link   to='cart' > 
        
         <IoCartOutline className='cart' color='gray' size="1.9em"   />
