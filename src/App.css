@@ -1,13 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
+/* work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Work+Sans:ital,wght@0,500;1,100;1,200&display=swap');
 
 
+/* start vareble */ 
 
-
-* {
-  box-sizing: border-box;
-    font-family: 'Maven Pro', sans-serif;
-    margin: 0;
-    padding: 0;
+:root {
+  --main-color: #10cab7 ;
+  --Sec-color : #0F1E3F;
 }
+
+
+/* start global rules  */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+
+body {
+font-family: 'Work Sans', sans-serif;  
+}
+
+/* end global rules  */ 
 
 
