@@ -1,0 +1,30 @@
+.proto {
+    padding: 60px 0;
+    min-height: 80vh;
+}
+
+
+.proto-Title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+
+.proto-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+
+}
+
+
+
+.proto-cat {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}

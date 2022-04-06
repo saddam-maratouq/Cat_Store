@@ -16,6 +16,7 @@ import About from './About/About'
 import Feathers from './Feathers/Feathers'
 import Cust from './Customer/Cust' 
 import Chouse from './chouse-us/Chouse'
+import ProtoFolio from './protofolio/ProtoFolio'
 
 
 
@@ -107,6 +108,11 @@ import Chouse from './chouse-us/Chouse'
         {/* Customer Section  */}  
 
         <Cust/> 
+
+
+        {/* protofolio Section  */} 
+
+        <ProtoFolio/> 
 
 
     </>
