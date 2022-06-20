@@ -1,6 +1,6 @@
 import React, { useState,useContext,useEffect } from "react";
-import CartItem from "../cartItem/CartItem";
-import {catContext} from '../context/CatContext'  
+import CartItem from "../../components/cartItem/CartItem";
+import {catContext} from '../../context/CatContext'  
 
 // react tostify 
 import { ToastContainer, toast } from 'react-toastify';
@@ -10,11 +10,10 @@ const Cart = () => {
 
   const {  Cart  } =  useContext(catContext)  
 
-  const [cart,setCart] = useState(Cart);
-
+ 
 
  const SucssesHandler = () => {
-  setCart([]) 
+  
   toast.success("payed Successful" ,{
     autoClose: 2000,
     progressStyle: { background: 'linear-gradient(to right, green 0%, #68d4f3 100%)' },

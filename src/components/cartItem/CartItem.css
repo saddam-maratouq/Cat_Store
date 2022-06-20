@@ -1,0 +1,44 @@
+.qty {
+    width: 20%;
+}
+
+
+.table {
+    border-right: 6px solid #0F1E3F ; 
+    transition: 2s ;
+     width: 100%;
+}
+
+.table:hover {
+    background-color: #0F1E3F ;
+    color: #fff
+}
+
+h3 {
+    margin-left: 47px;
+}
+
+.false {
+ color: #fff; 
+}
+
+
+  /* ==query== */
+
+
+  @media screen and (max-width: 500px) {
+    body {
+      background-color: black ;
+      color: #fff;
+    }
+    .qty{
+        width: 100%;
+       
+    }
+    .table{
+      width: 120%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
