@@ -12,7 +12,7 @@ const Footer = () => {
     <>  
 
  {/* Footer  */}
-<footer className=" bg-success text-center text-white ">
+<footer className="  text-center text-white ">
    {/* Grid container  */}
   <div className="container p-4">
      {/* Section: Social media  */}
@@ -137,13 +137,13 @@ const Footer = () => {
 
           <ul className="list-unstyled mb-0">
             <li className='m-4' > 
-              <a href="#!" className="text-white"> 203 Fake St. Mountain View, San Francisco, California, USA </a>
+              <a href="#!" className="text-white"> <i class="fa-solid fa-location-dot"></i> San Francisco, California, USA </a>
             </li>
             <li className='m-4'>
-              <a href="#!" className="text-white tele "> +23923929212 </a>
+              <a href="#!" className="text-white tele "> <i className="fa-solid fa-phone"> </i> +23923929212 </a>
             </li>
             <li className='m-4'>
-              <a href="#!" className="text-white"> Email: info@gmail.com</a>
+              <a href="#!" className="text-white">  <i className="fa-regular fa-envelope"> </i> Email: info@gmail.com</a>
             </li>
            
           </ul>
@@ -157,12 +157,12 @@ const Footer = () => {
    {/* Grid container  */}
 
    {/* Copyright  */}
-  <div className="text-center p-3 mb-0">
-    © 2020 Copyright:
-    <a className="text-white" href="#">SQCat.com</a>
-  </div>
    {/* Copyright  */}
 </footer>
+  <div className="text-center p-3 mb-0">
+    © 2020 Copyright:  {' '}
+    <a className="text-black" href="#">SQCat.com</a>
+  </div>
  {/* Footer  */}
    </>
    ) 

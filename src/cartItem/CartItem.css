@@ -1,13 +1,19 @@
 .qty {
-    width: 40%;
+    width: 10%;
 }
 
 
 .table {
-    border-right: 6px solid #3E65A0; 
-    transition: 10ms ;
+    border-right: 6px solid #0F1E3F ; 
+    transition: 2s ;
+   width: 100%;
 }
 
 .table:hover {
-    background-color: #3E65A0;
+    background-color: #0F1E3F ;
+    color: #fff
+}
+
+h3 {
+    margin-left: 10px;
 }

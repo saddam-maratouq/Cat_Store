@@ -1,9 +1,19 @@
+
+footer {
+    background-color: #0F1E3F;
+    /* display: flex; */
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
 }
 
 .f-title {
     font-size: 25px;
-    background-color:   gray;
+    background-color:   #69CCB8
 }
 

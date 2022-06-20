@@ -40,11 +40,11 @@ useEffect(() => {
       ))}   
     </div>
     
-    <h3> Total :  &#128178;{total} </h3> 
+    <h3>   Total :   &#128178;{total} </h3> 
    
 
   <div className="d-grid gap-2">
-  <button className="btn btn-primary" type="button">Pay now </button> 
+  <button className="btn btn-info" type="button">Pay now </button> 
    </div>
      
     </div>

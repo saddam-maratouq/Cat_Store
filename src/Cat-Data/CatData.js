@@ -6,7 +6,7 @@
         "id":  1  ,
         "price": 100,
         "name": " white Exotic " , 
-        "Image": "https://www.bellamiacattery.com/pictures/fairytale12.jpg",
+        "Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F08%2F01%2Fwhite-exotic-shorthair-cat_1159213681-2000.jpg",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
       }, 
 

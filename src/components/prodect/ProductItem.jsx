@@ -55,7 +55,7 @@ const ProductItem = ({cat}) => {
 
               : 
 
-              ( <button onClick={handelAddCat} className="btn btn-primary"> 
+              ( <button onClick={handelAddCat} className="btn btn-info"> 
                 Add to Cart
             </button> ) 
               

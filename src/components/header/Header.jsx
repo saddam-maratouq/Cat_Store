@@ -59,7 +59,7 @@ const Header = () => {
     
       
     <Routes>
-    <Route path="/" element={<Producet/>} exact />
+    <Route path="/" element={<Home/>} exact />
     <Route path="/home" element={<Home/>} exact />
     <Route path="/producets" element={<Producet />}  exact/>
     <Route path="/cart" element={<Cart />} exact />    
