@@ -1,3 +1,15 @@
-.title {
-    margin-top: 4%;
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding-bottom: 50px;
+}
+
+.card-container h1 {
+    text-align: center;
+    margin-bottom: 100px;
 }

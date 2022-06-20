@@ -14,9 +14,9 @@ const Producet = () => {
 
 
   return (
-    <div>
+    <div className="card-container" >
       <center>
-      <h1 className="title" > Products</h1>
+      <h1 > Products</h1>
       </center>
       <br /> <br />
 
@@ -28,7 +28,7 @@ const Producet = () => {
 
         <ProductItem cat={cat} />
 
-        </div>
+        </div> 
 
       ))}   
     </div>

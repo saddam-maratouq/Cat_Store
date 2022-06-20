@@ -2,14 +2,24 @@ import React, { useState,useContext,useEffect } from "react";
 import CartItem from "../cartItem/CartItem";
 import {catContext} from '../context/CatContext'  
 
-
+// react tostify 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const Cart = () => { 
 
   const {  Cart  } =  useContext(catContext)  
 
+  const [cart,setCart] = useState(Cart);
 
 
+ const SucssesHandler = () => {
+  setCart([]) 
+  toast.success("payed Successful" ,{
+    autoClose: 2000,
+    progressStyle: { background: 'linear-gradient(to right, green 0%, #68d4f3 100%)' },
+  })
+ }
 
 
 const [total,setTotal] = useState() 
@@ -24,8 +34,7 @@ useEffect(() => {
   
 
   return ( 
-    <div>
-      <center>  <h1 className="m-5 " >  Cart   </h1> </center>
+    <div >
 
       <div className="row">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
@@ -44,7 +53,10 @@ useEffect(() => {
    
 
   <div className="d-grid gap-2">
-  <button className="btn btn-info" type="button">Pay now </button> 
+  <button onClick={SucssesHandler} className="btn btn-info" type="button">Pay now
+  <ToastContainer 
+  />
+   </button> 
    </div>
      
     </div>

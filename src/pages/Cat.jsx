@@ -71,13 +71,7 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
 
   
 
-  // const handelCountety = (e) => {
-  // const   value = e.target.value 
-  // if(value < 0) 
-  // return ; 
 
-  // setCountety(value) 
-  // }
 
 
   if (loading){
@@ -104,19 +98,12 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
 
             <br/><br/>
 
-            {/* <input type="number" value={countety}  onChange={handelCountety} /> 
-            
-            <br /><br />  
-
-            <p> Total : {product.price * countety }$   </p>  */}
-
-
+          
             { 
             Cart.some((p) => p.id === product.id) ?  // back T or F 
 
   
             (  <button onClick={deleteHandler} className="btn btn-danger"> 
-
                     Remove from Cart 
               </button> ) 
 
@@ -127,11 +114,7 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
             </button> ) 
               
               
-                }
-
-            {/* <button onClick={handelAddCat} className="btn btn-primary"> 
-                Add to Cart
-            </button> */}
+            }  
 
         </div>
     </div>
@@ -140,4 +123,4 @@ const Cat = () => {      /// to select  specfic cat when clicked on it //
   );
 };
 
-export default Cat;
+export default Cat; 

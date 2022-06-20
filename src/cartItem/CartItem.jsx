@@ -2,7 +2,8 @@ import {useContext,useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons' 
 import {catContext} from '../context/CatContext'  
- 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 
 //css 
 
@@ -22,6 +23,10 @@ const CartItem = ({cat}) => {
 
   const deleteHandler = () => {
     deleteCat(clickedId);
+    toast.error("Item Deleted" ,{
+      autoClose: 1000,
+      progressStyle: { background: 'linear-gradient(to right, red 0%, #fda085 100%)' },
+    })
   }
   
 
@@ -45,7 +50,7 @@ const CartItem = ({cat}) => {
 
 
     return (
-        
+    
       <table class="table m-5   ">
       <tbody  className=' carts ' >
     <tr className='  flex-column' >
@@ -53,6 +58,13 @@ const CartItem = ({cat}) => {
       <td> <h4> {cat.name}   </h4> </td> 
       <td> <h5> ${cat.price} </h5> </td>
       <td>  <input   className=' qty' type='Number' value={cat.qty} onChange={handelQuantity}/>  </td>
+      <button  className='btn btn-danger bg-danger' onClick={deleteHandler} > 
+      <td>  
+       <i class="fa-solid fa-x false "></i> 
+       <ToastContainer 
+       />
+        </td> 
+      </button>
     </tr>  
   </tbody> 
       </table>
@@ -65,21 +77,4 @@ const CartItem = ({cat}) => {
     export default CartItem    ;
     
     
-    // <div> 
-    //  <div className="card" >
-    // <img src={cat.Image}  className="card-img-top" alt='cat'  style={{ width : '250px' , height : '250px' }}/>
-    // <div className="card-body">
-    //   <h3 className="card-title"> {cat.name}  </h3> 
-    //   <h4> ${cat.price} </h4>  
-    //   <br /> 
-    //   <input type='Number' value={cat.qty} onChange={handelQuantity}/>  
-    //    <br /> <br /> 
-
-    //    {/* <p> total : ${cat.price * countety}  </p> */}
-    //   <button   onClick = {deleteHandler }   className="btn btn-danger">Delete 
-    //   <FontAwesomeIcon icon={faTrashAlt} >  </FontAwesomeIcon> 
-    //   </button> 
-    //   </div>
-    //   </div> 
-     
-    // </div> 
+    
