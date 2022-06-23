@@ -5,11 +5,15 @@ import {catContext} from '../../context/CatContext'
 // react tostify 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
+import Creditcard from "../../components/cartItem/Creditcard";
+
+
 
 const Cart = () => { 
 
   const {  Cart  } =  useContext(catContext)  
 
+  const [showModal, setshowModal] = useState(false) 
  
 
  const SucssesHandler = () => {
@@ -20,6 +24,24 @@ const Cart = () => {
   })
  }
 
+ //open Modal and submited for toast messges 
+ const submitHandler = (e) => {
+   setshowModal(!showModal)
+   SucssesHandler();
+   e.preventDefault();
+ }
+
+ //show modala 
+ const openHandler = () => {
+  setshowModal(!showModal)
+ }
+ //close modal 
+ const closeHandler = () => {
+  setshowModal(!showModal)
+ }
+
+
+////////////////////////////////////////////
 
 const [total,setTotal] = useState() 
 
@@ -33,6 +55,7 @@ useEffect(() => {
   
 
   return ( 
+    <> 
     <div >
 
       <div className="row">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
@@ -51,14 +74,22 @@ useEffect(() => {
     <h3>   Total :   &#128178;{total} </h3> 
    
 
-  <div className="d-grid gap-2">
-  <button onClick={SucssesHandler} className="btn btn-info" type="button">Pay now
+  <div className="d-grid  ">
+  <button onClick={openHandler} className="btn btn-info " type="button"> pay
   <ToastContainer 
   />
-   </button> 
+   </button>  
+        {/* credit Card Modal  */}
+        <Creditcard
+          submitHandler={submitHandler}
+          showModal={showModal}
+          closeHandler={closeHandler} 
+        />
+    
    </div>
      
-    </div>
+    </div> 
+    </>
   );
 };
  

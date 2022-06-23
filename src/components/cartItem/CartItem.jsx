@@ -60,7 +60,7 @@ const CartItem = ({cat}) => {
       
       <button  className='btn btn-danger bg-danger' onClick={deleteHandler} > 
       <td>  
-       <i class="fa-solid fa-x false "></i> 
+       <i className="fa-solid fa-x false "></i> 
        <ToastContainer 
        />
         </td> 

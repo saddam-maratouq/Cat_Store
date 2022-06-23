@@ -6,10 +6,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .f-title {

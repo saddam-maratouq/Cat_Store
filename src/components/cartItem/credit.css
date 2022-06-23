@@ -1,0 +1,106 @@
+.creditContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-Content {
+  /* width: 500px;  */
+ } 
+
+.closeButton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.credit-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 50px; 
+  border-radius: 20px; 
+  text-decoration: none;
+}
+
+label {
+  font-size: 20px;
+}
+
+.C-Number {
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.C-holderNumber {
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.Expire-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 50px;
+  margin-top: 16px;
+}
+
+.MM {
+  padding: 5px;
+  font-size: 17px;
+  width: 70px;
+  margin-left: 1px;
+}
+
+.yy {
+  padding: 5px;
+  font-size: 17px;
+  width: 70px;
+  margin-left: 18px;
+}
+
+.dd {
+  padding: 5px;
+  font-size: 17px;
+  width: 70px;
+  margin-left: 18px;
+}
+
+.cvv {
+  padding: 5px;
+  font-size: 20px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.submit {
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  background-color: #68D4F3;
+  transition: 1s linear;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.submit:hover {
+  letter-spacing: 5px;
+  transform: scale(1.1);
+}
+
+Modal {
+  margin-top: 1500px;
+}
