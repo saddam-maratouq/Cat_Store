@@ -34,7 +34,7 @@ const ProductItem = ({cat}) => {
         
         <div className='cards'  >  
          <div className="cardo" >
-        <img src={cat.Image}  className="card-img  " alt='cat' style={{ width : '32rem' }}  /> 
+        <img src={cat.Image}  className="card-img  " alt='cat'  /> 
       
         <div className="card-body">
 
@@ -49,7 +49,6 @@ const ProductItem = ({cat}) => {
 
   
             (  <button onClick={deleteHandler} className="btn btn-danger"> 
-
                     Remove from Cart
               </button> ) 
 

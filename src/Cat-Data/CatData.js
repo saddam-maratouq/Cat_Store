@@ -84,7 +84,7 @@
         "id": 9 ,
         "name": " Brown siamese cat  ", 
         "price": 500,
-        "Image": "https://www.opsopet.com/wp-content/uploads/2017/06/Siamese-Cat-600x600.jpg",
+        "Image": "https://allaboutcats.com/wp-content/uploads/2020/10/Siamese-Cat-compressed.jpg",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
       }, 
 

@@ -8,6 +8,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+    width: 442px;
+    height: 266px;
+    object-fit: fill;
+    
 } 
 
 
@@ -16,5 +20,6 @@
     margin: 6%;
     /* padding-bottom: 50px */
 }
+
 
 
