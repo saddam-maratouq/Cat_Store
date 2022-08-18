@@ -29,9 +29,23 @@
     margin: 10px;
 }
 
-/* ==query== */
+    /* ==query== */
 
-@media screen and (max-width: 500px) {
+    @media screen and (max-width: 990px) {
+        .proto-content{
+            display: flex;
+            justify-content: center;
+            /* padding: 0; */
+        }
+
+        .proto-cat {
+            width: 500px;
+            height: 300px;
+        }
+       }
+
+
+   @media screen and (max-width: 500px) {
    .proto-content{
        display: flex;
        justify-content: center;
