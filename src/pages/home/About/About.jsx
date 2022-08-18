@@ -15,7 +15,7 @@ const About = () => {
    <section className='About-sc' >  
        <div className="container">
 
-        <div className=" About row align-items-center ">  
+        <div className=" About row  ">  
         <div className='col img-c'>
             <img   className='About-img' src={Aboutcat} alt="gray cat" />
         </div>

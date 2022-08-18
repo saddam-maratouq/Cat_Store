@@ -11,15 +11,18 @@
     width: 442px;
     height: 266px;
     object-fit: fill;
-    
 } 
 
 
 
-.cardo{
+.Cardo{
     margin: 6%;
     /* padding-bottom: 50px */
 }
 
 
 
+.btn {
+    margin-right: 15px;
+    border-radius: 5px;
+}

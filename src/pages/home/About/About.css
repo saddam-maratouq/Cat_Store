@@ -2,21 +2,21 @@
 .About-sc {
     width: 100%;
     min-height: 80vh;
-    
+    overflow: hidden;
 } 
 
 
-
-
 .About {
-    min-width: 120%; 
-    padding-top: 2%;   
+    max-width: 120%; 
+    padding-top: 2%;  
+    overflow: hidden; 
 }  
 
 .img-c {
     padding-top: 15%;
-    margin-right: 8%;
+    margin-right: auto;
 }
+
 
 .About-img {
     width: 600px;
@@ -24,25 +24,28 @@
 } 
 
 .A-info {
-    min-width: 500px;
-    margin-top: 300px;
-    margin-right: 100px;
+   width: 100%;
+  margin-top: 250px;
+  
 }
 
 
 
 .A-info h2 {
     font-weight: 800;
+    text-align: center;
 }
 
 
 
 .A-info p {
-    font-size:16px;
+    /* font-size:1.4vw; */
     text-align: justify;
     font-weight: 600;
     color: #3F2717;
-    max-width: 100%;
+    width: 100%;
+   
+    
 } 
 
 /* query  */ 
@@ -66,15 +69,16 @@
 
 @media (max-width : 1200px) {
     .A-info p {
-        font-size: 17px;
+      
     }
  
     .A-info h2 {
-        margin-bottom: 50px;
+        margin:50px 0;
     }
  
-    .A-info {
-        margin-top: 50px;
+     .A-info {
+        margin-top: auto;
         
     }
+
 }

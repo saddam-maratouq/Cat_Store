@@ -33,8 +33,8 @@ const ProductItem = ({cat}) => {
     
         
         <div className='cards'  >  
-         <div className="cardo" >
-        <img src={cat.Image}  className="card-img  " alt='cat'  /> 
+         <div className="Cardo" >
+        <img src={cat.Image}  className="card-img" alt='cat'  /> 
       
         <div className="card-body">
 
@@ -42,7 +42,7 @@ const ProductItem = ({cat}) => {
 
           <p> ${cat.price} </p>
 
-          <a  href= {`cat/${cat.id}`}  className="btn btn-light"> Details </a>  
+          <a  href= {`cat/${cat.id}`}  className="btn"> Details </a>  
 
           { 
             Cart.some((p) => p.id === cat.id) ?  // back T or F 
