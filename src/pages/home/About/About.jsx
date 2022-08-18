@@ -15,12 +15,12 @@ const About = () => {
    <section className='About-sc' >  
        <div className="container">
 
-        <div className=" About row  ">  
-        <div className='col img-c'>
+        <div className=" About   ">  
+        <div className=' img-c'>
             <img   className='About-img' src={Aboutcat} alt="gray cat" />
         </div>
-        <div className=" A-info col   "> 
-
+        <div className=" A-info">  
+       
             <h2  > ABOUT US</h2> 
             <p> CatShop offers you beautifully crafted, environmentally friendly
              hand picked selection of toys, products & accessories for cats.  </p>
