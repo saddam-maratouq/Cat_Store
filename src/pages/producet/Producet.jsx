@@ -24,7 +24,7 @@ const Producet = () => {
 
       {Cats.map(cat  => (
 
-        <div  className="col" key={cat.id} > 
+        <div  className={"col"} key={cat.id} > 
 
         <ProductItem cat={cat} />
 
