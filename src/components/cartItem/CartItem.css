@@ -1,11 +1,13 @@
 .qty {
     width: 20%;
+   /* min-height: 50px; */
+   font-size: 20px;
 }
 
 
 .table {
     border-right: 6px solid #0F1E3F ; 
-    transition: 2s ;
+    transition: 2s ease-in-out ;
      width: 100%;
 }
 

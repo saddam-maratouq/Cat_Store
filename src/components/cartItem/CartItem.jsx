@@ -66,7 +66,7 @@ const CartItem = ({cat}) => {
         </td> 
       </button>
     </tr>  
-      <input   className=' qty' type='Number' value={cat.qty} onChange={handelQuantity}/> 
+      <input   className=' qty' type='number' value={cat.qty} onChange={handelQuantity}/> 
   </tbody> 
       </table>
 
