@@ -39,7 +39,7 @@
         }
 
         .proto-cat {
-            width: 500px;
+            width: 370px;
             height: 300px;
         }
        }
@@ -49,5 +49,10 @@
    .proto-content{
        display: flex;
        justify-content: center;
-   }
+   } 
+
+   .proto-Title {
+    margin-top: 10px;
+    font-size: 2.5rem;
+} 
   }

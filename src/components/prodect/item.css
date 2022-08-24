@@ -1,16 +1,17 @@
 .cards{
-    padding: 10px;
+    padding: 10px 10px;
+    overflow: hidden;
 }
 
 
-
-
-
-
+.card-img {
+    width: 442px;
+    height: 266px;
+}
 
 .Cardo{
     margin: 6%;
-    /* padding-bottom: 50px */
+    padding-bottom: 50px
 }
 
 
@@ -18,4 +19,18 @@
 .btn {
     margin-right: 15px;
     border-radius: 5px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .card-img{
+        width: 320px;
+        /* height: 266px; */
+    }
+
+    .Cardo {
+        margin: 2%
+    }
+
+   
 }

@@ -133,3 +133,14 @@
     }
 }
 
+
+@media (max-width: 540px) {
+    .feather-content {
+        margin-top: 100px;
+        padding-top: 10px;
+    }
+    .T-Featchers {
+        font-size: 2.5rem;
+    }
+}
+

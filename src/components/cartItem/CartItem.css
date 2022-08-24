@@ -27,10 +27,7 @@ h3 {
 
 
   @media screen and (max-width: 500px) {
-    body {
-      background-color: black ;
-      color: #fff;
-    }
+   
     .qty{
         width: 100%;
        

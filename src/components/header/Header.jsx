@@ -7,7 +7,7 @@ import logo from '../../Images/cat.png'
 //pages 
 import Producet from '../../pages/producet/Producet'; 
 import Cart from '../../pages/Cart/Cart';
-import Cat from '../../pages/Cat';
+import Cat from '../../pages/producet/Catdeatels';
 import Home from '../../pages/home/Home';
 
 

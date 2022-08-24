@@ -32,7 +32,7 @@
     width: 24em;
     margin: 3%;
     padding: 30px;
-    transition: 0.7s ease;
+    transition: 1.7s ease-in-out;
     box-shadow: 0 5px 22px gray;
     
 }
@@ -42,6 +42,7 @@
     background-color: var(--Sec-color);
     color: white;
     transform: scale(1.1);
+    cursor: pointer;
 
 }
 
@@ -67,4 +68,15 @@
 .card-info p {
     font-size: 1.3rem;
     color: #888;
+}
+
+
+
+/* Query */
+
+
+@media (max-width: 540px) {
+    .title {
+        font-size: 2.5rem;
+    }
 }
