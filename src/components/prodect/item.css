@@ -22,10 +22,25 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     .card-img{
-        width: 420px  !important;
-        height: 266px !important ;
+        width: 600px !important;
+        height: 314px !important;
+    }
+
+    .Cardo {
+        /* margin: 2% */
+    }
+
+   
+}
+
+
+
+@media screen and (max-width: 560px) {
+    .card-img{
+        width: 300px !important ;
+        
     }
 
     .Cardo {
