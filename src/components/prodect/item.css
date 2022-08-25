@@ -5,7 +5,7 @@
 
 
 .card-img {
-    width: 442px;
+    width: 350px;
     height: 266px;
 }
 
@@ -22,14 +22,14 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .card-img{
-        width: 330px;
-        /* height: 266px; */
+        width: 420px;
+        height: 266px;
     }
 
     .Cardo {
-        margin: 2%
+        /* margin: 2% */
     }
 
    

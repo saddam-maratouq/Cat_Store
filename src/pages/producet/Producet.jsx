@@ -14,7 +14,7 @@ const Producet = () => {
 
 
   return (
-    <div className="card-container" >
+    <div className="container" >
       <center>
       <h1 className="producet-title" > Products</h1>
       </center>
