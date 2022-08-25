@@ -14,7 +14,9 @@ const Producet = () => {
 
 
   return (
-    <div className="container" >
+    
+   <div className="prodect-sec">
+     <div className="container" >
       <center>
       <h1 className="producet-title" > Products</h1>
       </center>
@@ -35,6 +37,7 @@ const Producet = () => {
 
      
     </div>
+   </div>
   );
 };
 

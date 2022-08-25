@@ -1,17 +1,12 @@
 
+.prodect-sec {
+    padding: 20px 0 ;
 
-/* .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    /* margin: 5%; */
-    /* padding-bottom: 50px; */
-/* } */ */
+}
 
  .producet-title {
     text-align: center;
-    margin-bottom: 100px;
+  margin: 100px 0 !important;
 }
 
 
