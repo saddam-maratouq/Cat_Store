@@ -5,8 +5,8 @@
 
 
 .card-img {
-    width: 350px;
-    height: 266px;
+    width: 350px !important ;
+    height: 266px !important ; 
 }
 
 .Cardo{
@@ -24,8 +24,8 @@
 
 @media screen and (max-width: 767px) {
     .card-img{
-        width: 420px;
-        height: 266px;
+        width: 420px  !important;
+        height: 266px !important ;
     }
 
     .Cardo {
