@@ -2,16 +2,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100px;
+  margin: 10px;
 }
 
 .card-Content {
-  /* width: 500px;  */
+  /* width: 100px;
+  padding: 10px;  */
  } 
 
+ .modal-content {
+  border-radius: 1.3rem;
+  background-color: none
+ }
+
+ .modal-dialog {
+  padding: 10px;
+    margin-right: 20px;
+ }
+
 .closeButton {
-    display: flex;
-    justify-content: flex-end;
+     display: flex;
+    justify-content: flex-end; 
     align-items: center;
+    position: absolute; 
+    right: -26px;
+    top: -8px; 
 }
 
 
@@ -59,6 +75,7 @@ label {
   font-size: 17px;
   width: 70px;
   margin-left: 1px;
+ 
 }
 
 .yy {
@@ -66,6 +83,8 @@ label {
   font-size: 17px;
   width: 70px;
   margin-left: 18px;
+  
+
 }
 
 .dd {
@@ -73,6 +92,7 @@ label {
   font-size: 17px;
   width: 70px;
   margin-left: 18px;
+ 
 }
 
 .cvv {

@@ -13,6 +13,8 @@ const Cart = () => {
 
   const {  Cart  } =  useContext(catContext)  
 
+  console.table( 'this is cart tabel',Cart );
+
   const [showModal, setshowModal] = useState(false) 
  
 
@@ -71,11 +73,13 @@ useEffect(() => {
       ))}   
     </div>
     
-    <h3>   Total :   &#128178;{total} </h3> 
+    <h3  style={{  marginTop : '60px'  }} >   Total :   &#128178;{total} </h3> 
    
 
   <div className="d-grid  ">
-  <button onClick={openHandler} className="btn btn-info " type="button"> pay
+  <button onClick={openHandler}  
+    style= {{ width:'20%' ,  marginLeft:'20px' , border: 'none' , marginTop:'20px', padding:'10px', fontSize:'1.3rem'}} 
+   className="btn btn-info " type="button"> pay 
   <ToastContainer 
   />
    </button>  

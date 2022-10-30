@@ -11,13 +11,15 @@ const Cust = () => {
             {/* Start Cust */} 
 
             <div className="cust">
-            <i className="fa-solid fa-user-secret"></i>
+            {/* <i className="fa-solid fa-user-secret"></i> */}
+            <i class="fa-sharp fa-solid fa-users"></i>
             <p> 70 </p> 
-            <h5> Happy Coustmer </h5> 
+            <h5> Happy Customer </h5> 
             </div>
 
             <div className="cust">
-            <i className="fa-brands fa-github"></i> 
+            {/* <i className="fa-brands fa-github"></i>  */}
+            <i class="fa-sharp fa-solid fa-user-tie"></i>
              <p> 50 </p>
              <h5> professional  </h5> 
             </div> 

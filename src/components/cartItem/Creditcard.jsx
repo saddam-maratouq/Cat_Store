@@ -34,11 +34,15 @@ const Creditcard = ({submitHandler,showModal,closeHandler}) => {
           <input type="text"  className="C-holderNumber" required /> 
         </label> 
         <div  className="Expire-content" >   
-        <label>
-        Expeire   {' '} <br/> 
-          <input type="text"  className="MM" placeholder="mm" required /> 
-          <input type="text"  className="yy" placeholder="yy" required /> 
-          <input type="text"  className="dd" placeholder="dd" required /> 
+        <label  className='' >
+         <p> Expiration </p>   
+
+         {/* <br/>  */}
+       
+        
+          <input type="text"  className="MM" placeholder="dd" required /> 
+          <input type="text"  className="yy" placeholder="mm" required /> 
+          <input type="text"  className="dd" placeholder="yy" required /> 
          
         </label> 
         </div> 

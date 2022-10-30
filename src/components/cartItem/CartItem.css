@@ -2,13 +2,15 @@
     width: 20%;
    /* min-height: 50px; */
    font-size: 20px;
+   margin-left: 8px;
 }
 
 
 .table {
-    border-right: 6px solid #0F1E3F ; 
+    /* border-right: 2px solid #0F1E3F ;  */
     transition: 2s ease-in-out ;
-     width: 100%;
+     width: 98% ;
+     
 }
 
 .table:hover {
@@ -17,7 +19,12 @@
 }
 
 h3 {
-    margin-left: 47px;
+    margin-left: 20px;
+    
+}
+
+.deleteBtn {
+  font-size: 10px;
 }
 
 .false {
@@ -29,15 +36,22 @@ h3 {
 
 
   @media screen and (max-width: 500px) {
+
+
    
     .qty{
-        width: 100%;
+        width: 30%;
+        margin-left: 10px;
        
     }
     .table{
-      width: 120%;
+      width: 99%;
+      margin-left: 15px;
+      /* padding: 20px; */
       display: flex;
       flex-direction: column;
+      align-items: center;
       justify-content: center;
+      
     }
   }

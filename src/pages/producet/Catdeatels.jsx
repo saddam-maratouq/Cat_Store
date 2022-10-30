@@ -65,7 +65,7 @@ const Catdeatels = () => {
           <div className="deatel-box">
             <h1>{product.name}</h1>
 
-            <h3 className="price">Price: {product.price}$</h3>
+            <h2 className="price">Price: {product.price}$</h2>
 
             <p>{product.description}</p>
 
@@ -77,7 +77,7 @@ const Catdeatels = () => {
                 Remove from Cart
               </button>
             ) : (
-              <button onClick={handelAddCat} className="btn btn-primary">
+              <button onClick={handelAddCat} className="btn btn-info">
                 Add to Cart
               </button>
             )}

@@ -18,8 +18,7 @@ const CartIcon = () => {
   const {  Cart  } =  useContext(catContext)  
 
 
-
-  const [total,setTotal] = useState() 
+  const [total,setTotal] = useState()  
 
   console.log(total);
 

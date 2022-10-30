@@ -11,6 +11,18 @@
 }
 
 
+.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.inActive {
+    /* opacity: 0; */
+    visibility: visible;
+}
+
+
+
 .nav-item {
     transition: 4ms; 
     padding: 30px;
