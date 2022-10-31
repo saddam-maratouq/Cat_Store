@@ -25,7 +25,7 @@ const Header = () => {
  
     return (
         
-      <>  
+      <div className='Main-style' >  
       
        
       <nav className="navbar navbar-expand-lg navbar-light bg-light"> 
@@ -87,7 +87,7 @@ const Header = () => {
     <Route path="/cat/:id" element={<Cat />} exact  /> 
    </Routes> 
 
-   </>
+   </div>
 
     )
 }

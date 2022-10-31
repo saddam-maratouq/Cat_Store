@@ -5,8 +5,10 @@
 }
 
  .producet-title {
-    text-align: center;
+  text-align: center;
   margin: 100px 0 !important;
+  font-size: 50px;
+  font-weight: 800;
 }
 
 

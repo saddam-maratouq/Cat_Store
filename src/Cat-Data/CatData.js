@@ -5,7 +5,7 @@
     {
         "id":  1  ,
         "price": 100,
-        "name": " white Exotic " , 
+        "name": " White Exotic " , 
         "Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F08%2F01%2Fwhite-exotic-shorthair-cat_1159213681-2000.jpg",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
       }, 
@@ -36,7 +36,7 @@
 
       {
         "id": 4,
-        "name": " white british  ",
+        "name": " White british  ",
         "price": 350,
         "Image": "https://static.wixstatic.com/media/9d3609_eb9f59b5f7c64d93a5686d606094011e~mv2.jpg/v1/fill/w_640,h_504,al_c,q_80,usm_0.66_1.00_0.01/9d3609_eb9f59b5f7c64d93a5686d606094011e~mv2.webp" ,
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."

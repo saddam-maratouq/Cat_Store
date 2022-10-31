@@ -58,7 +58,7 @@ const CartItem = ({cat}) => {
       <table class="table mt-5      ">
       <tbody  className=' carts ' >
     <tr className='  flex-column' >
-      <td> <img src={cat.Image} alt=" cats"  style={{ width : '13rem' }} /> </td>
+      <td> <img src={cat.Image} alt=" cats"  style={{ width : '10rem' , borderRadius:'10px' }} /> </td>
       <td> <h4> {cat.name}   </h4> </td> 
       <td> <h5> ${cat.price} </h5> </td>
       <td>
@@ -84,15 +84,5 @@ const CartItem = ({cat}) => {
     
     
     
-    //  <table>
-    //   <tbody>
-    //     <tr>
-    //       <td>{this.props.order.number}</td>
-    //       <td>{this.props.order.products}</td>
-    //       <td>{this.props.order.shippingDate}</td>
-    //       <td>{this.props.order.status}</td>
-    //     </tr>
-    //   </tbody>
-    // </table>
+    
 
-    <tr><td><button class="editbtn">edit</button></td></tr>

@@ -34,12 +34,12 @@ const ProductItem = ({cat}) => {
 
     
       
-      <ul class="cards">
+      <div class="cards">
  
   
 
-  <li>
-    <a href="" class="card">
+  <div   >
+    <div href="" class="card  ">
       <img src={cat.Image} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
@@ -71,9 +71,9 @@ const ProductItem = ({cat}) => {
                 }
          </div> 
       </div>
-    </a>
-  </li>    
-</ul>
+    </div>
+  </div>    
+</div>
 
         // {/* <div className='cards'  >  
         //  <div className="Cardo" >

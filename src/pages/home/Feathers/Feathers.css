@@ -38,7 +38,7 @@
 }
 
 
-.card:hover {
+.content .card:hover {
     background-color: var(--Sec-color);
     color: white;
     transform: scale(1.1);

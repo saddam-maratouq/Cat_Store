@@ -6,6 +6,7 @@
 .card-img {
   width: 350px !important ;
   height: 266px !important ;
+  /* margin-bottom: 141px; */
 }
 
 .Cardo {
@@ -45,19 +46,24 @@
   
   .cards {
     display: grid;
+   
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin: 4rem 5vw;
+    margin: 5rem 2.5vw;
     padding: 0;
     list-style-type: none;
+    width: 100%;
   }
   
   .card {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
+    gap: 2;
     position: relative;
-   display: block; 
+    display: block; 
+    width: auto;
     /* height: 90%;   */
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
@@ -72,6 +78,7 @@
     width: 350px !important ;
     height: 266px !important ;
     border-radius: 10px;
+    margin-bottom: 80px;
   }
   
   

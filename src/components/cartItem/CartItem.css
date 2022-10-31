@@ -9,8 +9,8 @@
 .table {
     /* border-right: 2px solid #0F1E3F ;  */
     transition: 2s ease-in-out ;
-     width: 98% ;
-     
+    margin-left: 20px;
+   
 }
 
 .table:hover {
@@ -53,5 +53,5 @@ h3 {
       align-items: center;
       justify-content: center;
       
-    }
+    } 
   }
