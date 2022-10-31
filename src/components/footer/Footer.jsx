@@ -50,7 +50,7 @@ const Footer = () => {
 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
 <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
 </ul>
-<p class=""><a href="#" class=" btn-info btn-footer ">Contact</a></p>
+{/* <p class=""><a href="#" class=" btn-info btn-footer ">Contact</a></p> */}
 </div>
 </div>
 <div class="row-f ">
