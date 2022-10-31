@@ -75,41 +75,42 @@ const ProductItem = ({cat}) => {
   </div>    
 </div>
 
-        // {/* <div className='cards'  >  
-        //  <div className="Cardo" >
-        // <img src={cat.Image}  className="card-img" alt='cat'  /> 
-      
-        // <div className="card-body">
 
-        //   <h5 className="card-title"> {cat.name}  </h5>
-
-        //   <p> ${cat.price} </p>
-
-        //   <a  href= {`cat/${cat.id}`}  className="btn"> Details </a>  
-
-        //   { 
-        //     Cart.some((p) => p.id === cat.id) ?  // back T or F 
-
-  
-        //     (  <button onClick={deleteHandler} className="btn btn-danger"> 
-        //             Remove from Cart
-        //       </button> ) 
-
-        //       : 
-
-        //       ( <button onClick={handelAddCat} className="btn btn-info"> 
-        //         Add to Cart
-        //     </button> ) 
-              
-              
-        //         }
-              
-        //   </div>
-        //   </div>
-        // </div>  */}  
-      
-    )
+)
 }
 
 export default ProductItem   ; 
 
+
+// {/* <div className='cards'  >  
+//  <div className="Cardo" >
+// <img src={cat.Image}  className="card-img" alt='cat'  /> 
+
+// <div className="card-body">
+
+//   <h5 className="card-title"> {cat.name}  </h5>
+
+//   <p> ${cat.price} </p>
+
+//   <a  href= {`cat/${cat.id}`}  className="btn"> Details </a>  
+
+//   { 
+//     Cart.some((p) => p.id === cat.id) ?  // back T or F 
+
+
+//     (  <button onClick={deleteHandler} className="btn btn-danger"> 
+//             Remove from Cart
+//       </button> ) 
+
+//       : 
+
+//       ( <button onClick={handelAddCat} className="btn btn-info"> 
+//         Add to Cart
+//     </button> ) 
+      
+      
+//         }
+      
+//   </div>
+//   </div>
+// </div>  */}  

@@ -62,7 +62,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2;
     position: relative;
-    display: block; 
+    /* display: block;  */
     width: auto;
     /* height: 90%;   */
     border-radius: calc(var(--curve) * 1px);
@@ -169,15 +169,36 @@
   /*  media  query  */
 
 @media screen and (max-width: 991px) {
-  .card-img {
-    width: 600px !important;
-    height: 314px !important;
-  }
+  
 
 }
 
-@media screen and (max-width: 560px) {
-  .card-img {
-    width: 300px !important ;
+@media  (min-width: 768px) and (max-width: 991px) {
+ .card {
+  width: 40em !important ;
+ }
+  
+ .card__image{
+  width: 500px !important ;
+ } 
+}
+
+@media screen and (max-width: 700px) {
+   .card{
+     display: flex ;
+     justify-content: center ;
+     align-items: center ; 
+     align-content: center ;
+    width: 28em !important;
+    
+   }
+}
+
+
+@media screen and (max-width: 414px) {
+  .card {
+   
+    width: auto !important;
+    margin-right: auto;
   }
 }
