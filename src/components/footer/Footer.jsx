@@ -15,8 +15,8 @@ const Footer = () => {
 <div class="container">
 <div class="row">
 <div class="col-md-4 pr-md-5">
-<a href="#" class="footer-site-logo d-block mb-4">Colorlib</a>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quasi perferendis ratione perspiciatis accusantium.</p>
+<a href="#" class="footer-site-logo d-block mb-4">SQ Cat</a>
+{/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quasi perferendis ratione perspiciatis accusantium.</p> */}
 </div>
 <div class="col-md">
 <ul class="list-unstyled nav-links">
