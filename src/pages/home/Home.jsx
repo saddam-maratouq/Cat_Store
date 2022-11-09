@@ -17,6 +17,7 @@ import Feathers from './Feathers/Feathers'
 import Cust from './Customer/Cust' 
 import Chouse from './chouse-us/Chouse'
 import ProtoFolio from './protofolio/ProtoFolio'
+import Pricing from './pricing/Pricing'
 
 
 
@@ -113,6 +114,10 @@ import ProtoFolio from './protofolio/ProtoFolio'
         {/* protofolio Section  */} 
 
         <ProtoFolio/> 
+
+        {/*  pricing Section  */}
+
+        <Pricing/> 
 
 
     </>

@@ -1,13 +1,16 @@
 import React, {useState} from 'react' 
 import { Routes, Route ,  Link } from "react-router-dom";
 import CartIcon from '../Cart-icon/CartIcon';
+
+//css
 import './header.css'
 
 import logo from '../../Images/cat.png'
+
 //pages 
-import Producet from '../../pages/producet/Producet'; 
+import Products from '../../pages/products/Products'; 
 import Cart from '../../pages/Cart/Cart';
-import Cat from '../../pages/producet/Catdeatels';
+import Cat from '../../pages/products/Catdeatels';
 import Home from '../../pages/home/Home';
 
 
@@ -53,16 +56,13 @@ const Header = () => {
              </li> 
           
              <li className="nav-item">
-               <Link className="nav-link" to="/Producets"> Products   </Link>
+               <Link className="nav-link" to="/products"> Products   </Link>
              </li> 
           
              <li className="nav-item">
                <Link className="nav-link" to="/cart"> Cart   </Link>  
              </li> 
           
-             {/* <li className="nav-item">
-             <i className=" user-icon fa-regular fa-user"></i>
-             </li>   */}
           
              <li className="nav-item">
              <CartIcon/>    
@@ -81,7 +81,7 @@ const Header = () => {
     <Routes>
     <Route path="/" element={<Home/>} exact />
     <Route path="/home" element={<Home/>} exact />
-    <Route path="/producets" element={<Producet />}  exact/>
+    <Route path="/products" element={<Products />}  exact/>
     <Route path="/cart" element={<Cart />} exact />    
    
     <Route path="/cat/:id" element={<Cat />} exact  /> 

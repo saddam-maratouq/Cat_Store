@@ -5,7 +5,7 @@ import {catContext} from '../../context/CatContext'
 import './products.css'
 
 
-const Producet = () => { 
+const Products = () => { 
 
   const { Cats } = useContext(catContext)  
   // console.log(Cart);
@@ -41,4 +41,4 @@ const Producet = () => {
   );
 };
 
-export default Producet;
+export default Products;
