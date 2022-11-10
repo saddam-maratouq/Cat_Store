@@ -26,9 +26,12 @@
 }
 
 .A-info h2 {
-  font-weight: 800;
+  font-weight: 900;
   text-align: center;
   margin-bottom: 20px;
+ 
+  color: #000;
+  font-size: 50px;
 }
 
 .A-info p {

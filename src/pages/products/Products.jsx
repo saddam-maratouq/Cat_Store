@@ -15,7 +15,13 @@ const Products = () => {
 
   return (
     
-   <div className="prodect-sec">
+   <div className="prodect-sec"
+           data-aos="fade-down"
+           data-aos-easing="linear"
+            data-aos-duration="3000"
+            data-aos-mirror="true"
+            data-aos-delay="50"
+   >
      <div className="container" >
       <center>
       <h1 className="producet-title" > Products</h1>

@@ -16,7 +16,13 @@ import protoImg6 from '../../../Images/cat1.jpg'
 const ProtoFolio = () => {
   return (
 
-    <section className="proto"> 
+    <section className="proto" 
+           data-aos="zoom-in"
+            data-aos-duration="3000"
+            data-aos-mirror="true"
+            data-aos-easing="linear"
+
+    > 
     <h1 className='proto-Title' >  Gallery </h1>
         <div className="container">
             <div className="proto-content"> 

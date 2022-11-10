@@ -8,7 +8,12 @@ import './pricing.css'
 const Pricing = () => (
     
     
-    <section id="pricing">
+    <section id="pricing"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-mirror="true"
+            data-aos-easing="ease-in-sine"
+    >
 
      <div class="pricing-container" >
        <h2 class="pricing-title" >A Plan for Every Cats Needs</h2>

@@ -9,10 +9,14 @@ import ChouseImg from '../../../Images/Chouseimg/CoupelCat.jpg'
 
 const Chouse = () => {
   return (
-    <section className='Featchers'>
+    <section className='Featchers' 
+        
+    >
     <h1 className="T-Featchers"> Why chouse us ? </h1>
     <div className="container">
-        <div className="feather-content">
+        <div className="feather-content"
+       
+        >
 
         {/* start col  */} 
          <div className="col"> 
@@ -70,7 +74,12 @@ const Chouse = () => {
 
          </div>  
          
-          <div className="col">
+          <div className="col"  
+          data-aos="zoom-in"
+            data-aos-duration="3000"
+            data-aos-mirror="true"
+            
+          >
               <div className='Feat-image'>
              <img  src={ChouseImg} alt=" two  Cat " /> 
               </div>

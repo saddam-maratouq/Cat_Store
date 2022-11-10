@@ -22,10 +22,19 @@ import dryCat from '../../../Images/S-icon/beauty-saloon.png'
 
 const Feathers = () => {
   return (
-   <section className='Feather-sec' >
+   <section className='Feather-sec'  
+  
+
+   >
        <h1 className='title' >  Services </h1>
-        <div className="content">
-            <div className="card">
+        <div className="content"  
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-mirror="true"
+        >
+            <div className="card"  
+                 
+            >
                 <div className="card-icon">
                 <img src={catWalk} alt=" cat walk " />
                 </div> 

@@ -12,10 +12,17 @@ import Aboutcat from '../../../Images/AboutCat.jpg'
 
 const About = () => {
   return (
-   <section className='About-sc' >  
+   <section className='About-sc' 
+           data-aos="zoom-in"
+            data-aos-duration="3000"
+            data-aos-mirror="true"
+            data-aos-throttleDelay= '99'
+   >  
        <div className="container">
 
-        <div className=" About   ">  
+        <div className=" About " 
+        
+        >  
         <div className=' img-c'>
             <img   className='About-img' src={Aboutcat} alt="gray cat" />
         </div>
