@@ -1,26 +1,22 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap");
 
 .navbar-nav {
-    font-size: 1.5em;
-    font-family: 'Maven Pro', sans-serif;
-    margin-left: 20%;
-    display: flex;
-    align-items: center;
+  font-size: 1.5em;
+  font-family: "Maven Pro", sans-serif;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
 }
 
-
 .active {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .inActive {
-    /* opacity: 0; */
-    visibility: visible;
+  /* opacity: 0; */
+  visibility: visible;
 }
-
 
 /* control the theme */
 
@@ -29,45 +25,42 @@
     color: white;
 } */
 
-    
-
 .nav-item {
-    transition: 4ms; 
-    padding: 30px;
-} 
-
+  transition: 4ms;
+  padding: 30px;
+}
 
 .user-icon {
-    font-size: 30px;
-    color: gray;
-    display: flex;
+  font-size: 30px;
+  color: gray;
+  display: flex;
+}
+
+.nav-link {
+  transition: 1s ease-in-out;
 }
 
 .nav-link:hover {
-    color: aqua;
+  color: var(--main-color) !important;
 }
-
 
 /* mobile , Tablet  */
 
- @media (max-width : 989px ) {
+@media (max-width: 989px) {
+  .nav-item {
+    transition: 0.8s ease-in-out;
+  }
 
-    .nav-item {
-        transition: 0.8s ease-in-out;
-    }
+  .nav-item:hover {
+    padding-left: 100px;
+  }
+}
 
-    .nav-item:hover {
-        padding-left: 100px;
-    }
+/* Carsoel Arow */
 
- }
-
-
- /* Carsoel Arow */ 
-
-
- .carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
-    width: 7rem;
-    height: 5rem;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 7rem;
+  height: 5rem;
 }

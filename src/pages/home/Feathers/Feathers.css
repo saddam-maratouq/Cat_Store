@@ -1,84 +1,70 @@
 .Feather-sec {
-    width: 100%;
-    min-height: 90vh;
-    /* background-color: green; */
-  
+  width: 100%;
+  min-height: 90vh;
+  /* background-color: green; */
 }
 
-
 .title {
-    display: flex;
-font-size: 50px;    justify-content: center;
-    margin-bottom: 10%;
-    padding-top: 5%;
-    color: #000000;
-    font-weight: 900;
-
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  margin-bottom: 10%;
+  padding-top: 5%;
+  color: #000000;
+  font-weight: 900;
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5%;
 }
-
-
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 24em;
-    margin: 3%;
-    padding: 30px;
-    transition: 1.7s ease-in-out;
-    box-shadow: 0 5px 22px gray;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24em;
+  margin: 3%;
+  padding: 30px;
+  transition: 1.7s ease-in-out;
+  box-shadow: 0 5px 22px gray;
 }
-
 
 .content .card:hover {
-    background-color: var(--Sec-color);
-    color: white;
-    transform: scale(1.1);
-    cursor: pointer;
-
+  background-color: var(--Sec-color);
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-
 .card-icon img {
-    width: 100px;
-    margin-bottom: 30px;
+  width: 100px;
+  margin-bottom: 30px;
 }
 
 .card-info {
-    text-align: center;
+  text-align: center;
 }
-
-
 
 .card-info h2 {
-    font-size: 30px;
-    font-weight: 1000;
-    margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 15px;
 }
-
 
 .card-info p {
-    font-size: 1.3rem;
-    color: #888;
+  font-size: 1.3rem;
+  color: #888;
 }
-
-
 
 /* Query */
 
-
 @media (max-width: 540px) {
-    .title {
-        font-size: 2.5rem;
-    }
+  .title {
+    font-size: 2.5rem;
+  }
 }
