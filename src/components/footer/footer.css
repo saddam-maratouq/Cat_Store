@@ -5,27 +5,14 @@ footer {
   margin-top: 170px;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:hover {
-  color: #69ccb8;
-}
-/* .f-title {
-    font-size: 25px;
-    background-color:   #69CCB8;
-    /* letter-spacing: 5px; */
-/* padding: 7px; */
-/* border-radius: 10px; */
-/* } */
-
 .footer-content {
   padding: 5rem 0;
   background-color: #0f1e3f;
-  /* color: #fff; */
-  color: #777;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #fff !important;
+  transition: all 1.5s ease-in-out;
 }
 
 .btn-footer {
