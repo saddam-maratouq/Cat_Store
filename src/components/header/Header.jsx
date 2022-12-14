@@ -79,7 +79,7 @@ const Header = () => {
               </li>
 
               <li>
-                <Link className="nav-link" aria-current="page" to="/Home">
+                <Link className="nav-link" aria-current="page" to="/home">
                   {!isAuthenticated && (
                     <button
                       className="  btn-login "
@@ -92,7 +92,7 @@ const Header = () => {
               </li>
 
               <li>
-                <Link className="nav-link" aria-current="page" to="/Home">
+                <Link className="nav-link" aria-current="page" to="/home">
                   {isAuthenticated && (
                     <button
                       className="  btn-logout btn-danger "
