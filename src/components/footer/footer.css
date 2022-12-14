@@ -5,14 +5,19 @@ footer {
   margin-top: 170px;
 }
 
+.Site-logo {
+  font-size: 25px;
+  font-weight: 800;
+}
+
 .footer-content {
   padding: 5rem 0;
   background-color: #0f1e3f;
+  margin-top: 200px;
 }
 .footer-link a {
   text-decoration: none;
   color: #fff !important;
-  transition: all 1.5s ease-in-out;
 }
 
 .btn-footer {

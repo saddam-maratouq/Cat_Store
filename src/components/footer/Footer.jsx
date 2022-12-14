@@ -10,7 +10,7 @@ const Footer = () => {
       <div class="container">
         <div class="row footer-link  ">
           <div class="col-md-4 pr-md-5">
-            <a href="#" class="footer-site-logo d-block mb-4">
+            <a href="#" class="footer-site-logo Site-logo d-block mb-4">
               SQ Cat
             </a>
             {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quasi perferendis ratione perspiciatis accusantium.</p> */}
@@ -96,7 +96,7 @@ const Footer = () => {
           <div class="col-12 text-center">
             <div class="copyright mt-5 pt-5">
               <p>
-                <small> © 2022 Copyright:</small>
+                <small className="text-white"> © 2022 Copyright:</small>
               </p>
             </div>
           </div>
